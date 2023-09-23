@@ -1,0 +1,110 @@
+[
+    {
+        "id": 390,
+        "category": "monsters",
+        "kname": "스카이 옥타",
+        "name": "sky octorok",
+        "description": "문어 같은 모습을 한 하급 마족. 본래 수생 마족이나 체내의 부레가 발달하여 항상 공중에 떠다니게 되었다. 그러나 이에 주목한 몬스터들에게 발판을 띄우기 위한 부력으로 혹사당하고 있다. 뿔피리 소리를 들으면 떠오르도록 훈련되어 있고 딱히 공격을 하지는 않는다.",
+        "common_locations": [
+            "하이랄전역"
+        ],
+        "drops": [
+            "없음"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/master_mode/entry/sky_octorok/image",
+        "dlc": true
+    },
+    {
+        "id": 391,
+        "category": "monsters",
+        "kname": "골든 보코블린",
+        "name": "golden bokoblin",
+        "description": "실버 보코블린을 능가하는 전투력과 체력을 가진 매우 흉악한 보코블린. 실버 보코블린이 번개를 맞아 그 충격으로 돌연변이 했다고 알려져 있다. 그 때문인지 내성이 있어 번개 공격을 맞아도 마비가 잘 오지 않는 듯하다",
+        "common_locations": [
+            "확인불가"
+        ],
+        "drops": [
+            "모리블린의 뿔",
+            "모리블린의 이빨",
+            "모리블린의 간",
+            "호박",
+            "오팔",
+            "토파즈",
+            "루비",
+            "사파이어",
+            "다이아몬드"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/master_mode/entry/golden_bokoblin/image",
+        "dlc": true
+    },
+    {
+        "id": 392,
+        "category": "monsters",
+        "kname": "골든 모리블린",
+        "name": "golden moblin",
+        "description": "실버 모리블린을 능가하는 전투력과 체력을 가진 매우 흉악한 모리블린. 실버 모리블린이 번개를 맞아 그 충격으로 돌연변이 했다고 알려져 있다. 그 때문인지 내성이 있어 번개 공격을 맞아도 마비가 잘 오지 않는 듯하다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "drops": [
+            "모리블린의 뿔",
+            "모리블린의 이빨",
+            "모리블린의 간",
+            "호박",
+            "오팔",
+            "토파즈",
+            "루비",
+            "사파이어",
+            "다이아몬드"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/master_mode/entry/golden_moblin/image",
+        "dlc": true
+    },
+    {
+        "id": 393,
+        "category": "monsters",
+        "kname": "골든 리잘포스",
+        "name": "golden lizalfos",
+        "description": "실버 리잘포스를 능가하는 전투력과 체력을 가진 매우 흉악한 리잘포스. 실버 리잘포스가 번개를 맞아 그 충격으로 돌연변이 했다고 알려져 있다. 그 때문인지 내성이 있어 번개 공격을 맞아도 마비가 잘 오지 않는 듯하다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "drops": [
+            "리잘포스의 뿔",
+            "리잘포스의 이빨",
+            "리잘포스의 꼬리",
+            "호박",
+            "오팔",
+            "토파즈",
+            "루비",
+            "사파이어",
+            "다이아몬드"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/master_mode/entry/golden_lizalfos/image",
+        "dlc": true
+    },
+    {
+        "id": 394,
+        "category": "monsters",
+        "kname": "골든 라이넬",
+        "name": "golden lynel",
+        "description": "실버 라이넬을 능가하는 전투력과 체력을 가진 매우 흉악한 라이넬. 실버 라이넬이 번개를 맞아 그 충격으로 돌연변이 했다고 알려져 있다. 그 때문인지 내성이 있어 번개 공격을 맞아도 마비가 잘 오지 않는 듯하다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "drops": [
+            "라이넬의 뿔",
+            "라이넬의 발굽",
+            "라이넬의 간",
+            "속성 화살",
+            "야수신 장비",
+            "토파즈",
+            "루비",
+            "사파이어",
+            "다이아몬드",
+            "별의 조각"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/master_mode/entry/golden_lynel/image",
+        "dlc": true
+    }
+]

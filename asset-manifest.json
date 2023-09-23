@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/project_zelda/static/css/main.7bb99b08.css",
+    "main.js": "/project_zelda/static/js/main.68255b87.js",
+    "static/js/787.c5c1294e.chunk.js": "/project_zelda/static/js/787.c5c1294e.chunk.js",
+    "static/media/breath_of_the_wild_1St_trailer.mp4": "/project_zelda/static/media/breath_of_the_wild_1St_trailer.c9446cdbea950fa84eed.mp4",
+    "static/media/background_image__PC_detail.png": "/project_zelda/static/media/background_image__PC_detail.a594921b40676e8d482b.png",
+    "static/media/a드림고딕5.otf": "/project_zelda/static/media/a드림고딕5.21c1346ba674b4029e5f.otf",
+    "static/media/a드림고딕3.otf": "/project_zelda/static/media/a드림고딕3.c449d0ea06ec9446654f.otf",
+    "static/media/a드림고딕4.otf": "/project_zelda/static/media/a드림고딕4.304f08d78af40ed9a61f.otf",
+    "static/media/a드림고딕6.otf": "/project_zelda/static/media/a드림고딕6.385d5b5a774a606718c2.otf",
+    "static/media/a드림고딕7.otf": "/project_zelda/static/media/a드림고딕7.7c744a2f3347a8243613.otf",
+    "static/media/a드림고딕1.otf": "/project_zelda/static/media/a드림고딕1.cf65dbb589b03bc1c80f.otf",
+    "static/media/a드림고딕2.otf": "/project_zelda/static/media/a드림고딕2.2f13f8cf0a56f8ab347e.otf",
+    "static/media/background_image_detail.jpg": "/project_zelda/static/media/background_image_detail.03d34de1766b2cd92ae0.jpg",
+    "static/media/background_image__mobile_detail.png": "/project_zelda/static/media/background_image__mobile_detail.38b0172b0febe4d06e40.png",
+    "static/media/background_image.jpeg": "/project_zelda/static/media/background_image.7b2bd4d9edf23c0ce656.jpeg",
+    "static/media/big_hearty_truffle.png": "/project_zelda/static/media/big_hearty_truffle.e351ae08fe5708c411dd.png",
+    "static/media/The_Wild_Breath_of_Zelda.otf": "/project_zelda/static/media/The_Wild_Breath_of_Zelda.f2586a76dbe6e9c1c007.otf",
+    "index.html": "/project_zelda/index.html",
+    "main.7bb99b08.css.map": "/project_zelda/static/css/main.7bb99b08.css.map",
+    "main.68255b87.js.map": "/project_zelda/static/js/main.68255b87.js.map",
+    "787.c5c1294e.chunk.js.map": "/project_zelda/static/js/787.c5c1294e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bb99b08.css",
+    "static/js/main.68255b87.js"
+  ]
+}
