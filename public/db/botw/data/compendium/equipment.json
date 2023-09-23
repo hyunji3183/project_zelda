@@ -1,0 +1,3120 @@
+[
+    {
+        "id": 201,
+        "kname": "마스터 소드",
+        "name": "master sword",
+        "description": "전설로 전해지는 퇴마의 검. 빛나는 검신에는 재앙에 대항할 수 있는 신성한 힘이 깃들어 있다. 검에게 선택받은 용사만이 손에 넣을 수 있다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/master_sword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 30,
+            "defense": 0
+        }
+    },
+    {
+        "id": 202,
+        "kname": "나뭇가지",
+        "name": "tree branch",
+        "description": "어디서든 볼 수 있는 나뭇가지지만 휘두르기에 딱 좋은 절묘한 밸런스. 장비하면 무기로서 사용할 수 있다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/tree_branch/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 2,
+            "defense": 0
+        }
+    },
+    {
+        "id": 203,
+        "kname": "횃불",
+        "name": "torch",
+        "description": "불을 붙이면 계속해서 타오르는 횃불. 집어 넣으면 불이 꺼지므로 다시 한 번 붙여야 한다.",
+        "common_locations": [
+            "하이랄 대삼림",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/torch/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 2,
+            "defense": 0
+        }
+    },
+    {
+        "id": 204,
+        "kname": "나무 국자",
+        "name": "soup ladle",
+        "description": "수프를 뜨거나 재료를 볶을 때 쓰는 요리 도구. 단단한 나무를 깎아 만들었기 때문에 이걸로 맞으면 꽤나 아프다.",
+        "common_locations": [
+            "하이랄 평원",
+            "타반타 변두리"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/soup_ladle/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 4,
+            "defense": 0
+        }
+    },
+    {
+        "id": 205,
+        "kname": "부메랑",
+        "name": "boomerang",
+        "description": "원래는 숲의 민족 코로그의 무기. 독특한 모양은 던져도 다시 되돌아오도록 고안되었다.",
+        "common_locations": [
+            "서하테르",
+            "필로네 초원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/boomerang/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 8,
+            "defense": 0
+        }
+    },
+    {
+        "id": 206,
+        "kname": "뿅 망치",
+        "name": "spring-loaded hammer",
+        "description": "킬튼이 만든 기묘한 망치. 맞아도 별로 아프진 않지만 탄성으로 인해 뿅~ 하고 날아간다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/spring-loaded_hammer/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 1,
+            "defense": 0
+        }
+    },
+    {
+        "id": 207,
+        "kname": "여행자의 검",
+        "name": "traveler's sword",
+        "description": "주로 위험한 야생 동물에 대한 방비용으로 하이랄 전역에서 사용되는 검. 쉽게 망가지진 않지만 몬스터를 상대하기엔 조금 불안하다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/traveler's_sword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 5,
+            "defense": 0
+        }
+    },
+    {
+        "id": 208,
+        "kname": "병사의 검",
+        "name": "soldier's broadsword",
+        "description": "과거 하이랄 성을 지키던 병사가 쓰던 검. 몬스터도 상대할 수 있을 만큼 날카롭다. 금속 검신은 내구력 또한 뛰어나다.",
+        "common_locations": [
+            "하이랄 평원",
+            "필로네 초원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/soldier's_broadsword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 14,
+            "defense": 0
+        }
+    },
+    {
+        "id": 209,
+        "kname": "기사의 검",
+        "name": "knight's broadsword",
+        "description": "하이랄 성의 기사들이 쓰던 검. 다루기가 편하고 공격력이 높아 현재는 여행에 익숙한 모험가들이 선호한다.",
+        "common_locations": [
+            "겔드 사막",
+            "타반타 변두리"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/knight's_broadsword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 26,
+            "defense": 0
+        }
+    },
+    {
+        "id": 210,
+        "kname": "왕가의 검",
+        "name": "royal broadsword",
+        "description": "눈부신 공적을 세운 기사에게 하이랄 왕가에서 하사한 검. 최상급의 공격력과 아름다움 모두를 겸비한 명품.",
+        "common_locations": [
+            "타반타 변두리",
+            "추낙 고원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/royal_broadsword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 36,
+            "defense": 0
+        }
+    },
+    {
+        "id": 211,
+        "kname": "숲에 사는 자의 검",
+        "name": "forest dweller's sword",
+        "description": "코로그족이 인간을 위해 제작했다고 전해지며 목제로 만들어져 주로 호신용으로 사용되는 검. 숲의 담쟁이덩굴이나 뿌리를 벨 때도 사용된다.",
+        "common_locations": [
+            "하이랄 대삼림",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/forest_dweller's_sword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 22,
+            "defense": 0
+        }
+    },
+    {
+        "id": 212,
+        "kname": "조라의 검",
+        "name": "zora sword",
+        "description": "가는 검신과 조라족 특유의 장식이 특징인 검. 특수한 금속으로 만들어져 내구성이 높다. 물에 젖어도 녹슬지 않는다.",
+        "common_locations": [
+            "라넬 대수원",
+            "동하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/zora_sword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 15,
+            "defense": 0
+        }
+    },
+    {
+        "id": 213,
+        "kname": "날개깃의 검",
+        "name": "feathered edge",
+        "description": "리토족이 쓰는 양날 검. 공중에서도 재빨리 움직이기 위해 무게를 줄일 수 있도록 고안되었다.",
+        "common_locations": [
+            "타반타 변두리",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/feathered_edge/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 15,
+            "defense": 0
+        }
+    },
+    {
+        "id": 214,
+        "kname": "겔드의 나이프",
+        "name": "gerudo scimitar",
+        "description": "겔드 지방에서 사용되는 가장 일반적인 검. 짧고 굽은 날이 특징이며 호신용으로 지니는 겔드족 여성도 많다.",
+        "common_locations": [
+            "겔드 고지",
+            "겔드 사막"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/gerudo_scimitar/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 16,
+            "defense": 0
+        }
+    },
+    {
+        "id": 215,
+        "kname": "월광의 나이프",
+        "name": "moonlight scimitar",
+        "description": "섬세한 조각이 새겨진 검. 아름다운 곡선의 날은 굉장히 날카롭다. 과거엔 제사에도 사용되었다고 전해진다.",
+        "common_locations": [
+            "겔드 고지",
+            "겔드 사막"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/moonlight_scimitar/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 25,
+            "defense": 0
+        }
+    },
+    {
+        "id": 216,
+        "kname": "칠보의 나이프",
+        "name": "scimitar of the seven",
+        "description": "영걸 우르보사가 애용했던 굴지의 명검. 우르보사가 이 검을 휘두르는 모습은 마치 화려한 검무와 같았다고 전해진다.",
+        "common_locations": [
+            "겔드의 마을"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/scimitar_of_the_seven/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 32,
+            "defense": 0
+        }
+    },
+    {
+        "id": 217,
+        "kname": "잔심의 단도",
+        "name": "eightfold blade",
+        "description": "시커족의 전통적인 외날검. 유례를 볼 수 없는 좁은 검신과 날카로움을 지녀 검 제작에 고대 기술이 사용되었다는 말도 있다.",
+        "common_locations": [
+            "서하테르",
+            "하일리아호"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/eightfold_blade/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 15,
+            "defense": 0
+        }
+    },
+    {
+        "id": 218,
+        "kname": "고대 병기·검",
+        "name": "ancient short sword",
+        "description": "잃어버린 고대 기술을 날에 담은 한손검. 푸르게 빛나는 날은 발도했을 때만 볼 수 있다. 절단력은 일반적인 금속 검을 월등히 능가한다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ancient_short_sword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 40,
+            "defense": 0
+        }
+    },
+    {
+        "id": 219,
+        "kname": "녹슨 검",
+        "name": "rusty broadsword",
+        "description": "먼 옛날, 이름 있는 검사가 사용했을 것으로 추정되는 녹슨 한손검. 어떻게든 쓸 순 있지만 금방 망가져 버린다.",
+        "common_locations": [
+            "하이랄 평원",
+            "올딘 협곡"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/rusty_broadsword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 6,
+            "defense": 0
+        }
+    },
+    {
+        "id": 220,
+        "kname": "근위의 검",
+        "name": "royal guard's sword",
+        "description": "대재앙에 대항하기 위해 시커족이 만든 무기. 고대 기술을 활용해 퇴마의 검을 모방하여 만들었다. 뛰어난 공격력을 얻었지만 내구성에 문제가 남았다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/royal_guard's_sword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 48,
+            "defense": 0
+        }
+    },
+    {
+        "id": 221,
+        "kname": "화염의 검",
+        "name": "flameblade",
+        "description": "데스마운틴의 용암으로 제련했다는 마법 검. 검신이 붉은 빛으로 가득 찼을 때 휘두르면 작열의 불꽃을 내뿜는다.",
+        "common_locations": [
+            "하이랄 평원",
+            "동하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/flameblade/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 24,
+            "defense": 0
+        }
+    },
+    {
+        "id": 222,
+        "kname": "빙설의 검",
+        "name": "frostblade",
+        "description": "헤브라 지방 극한의 봉우리에서 제련했다는 마법 검. 검신에 푸른 빛이 가득 찼을 때 냉기를 뿜는 날이 상대를 얼어붙게 만든다.",
+        "common_locations": [
+            "겔드 고지",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/frostblade/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 20,
+            "defense": 0
+        }
+    },
+    {
+        "id": 223,
+        "kname": "뇌전의 검",
+        "name": "thunderblade",
+        "description": "하이랄 구릉의 낙뢰에 오랜 시간 노출시켜 제련한 마법 검. 금색 빛이 검신에 가득 찼을 때 휘두르면 전격으로 상대를 감전시킬 수 있다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/thunderblade/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 22,
+            "defense": 0
+        }
+    },
+    {
+        "id": 224,
+        "kname": "보코곤봉",
+        "name": "boko club",
+        "description": "보코블린이 먹잇감을 사냥하는 것 그 하나만을 위해 만들어 낸 곤봉. 조금만 무리해도 금방 망가져 버린다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/boko_club/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 4,
+            "defense": 0
+        }
+    },
+    {
+        "id": 225,
+        "kname": "가시 보코곤봉",
+        "name": "spiked boko club",
+        "description": "엄선한 소재로 제작된 특별한 보코블린의 곤봉. 뾰족한 뼈에 찔리면 상당히 아프다.",
+        "common_locations": [
+            "필로네 초원",
+            "동하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/spiked_boko_club/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 12,
+            "defense": 0
+        }
+    },
+    {
+        "id": 226,
+        "kname": "용골 보코곤봉",
+        "name": "dragonbone boko club",
+        "description": "곤봉에 화석의 뼈를 조합한 강력한 무기. 보코블린 중에서도 특히 힘이 센 개체만이 가지고 있다.",
+        "common_locations": [
+            "하이랄 구릉",
+            "하테르해"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/dragonbone_boko_club/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 24,
+            "defense": 0
+        }
+    },
+    {
+        "id": 227,
+        "kname": "리잘부메랑",
+        "name": "lizal boomerang",
+        "description": "리잘포스가 선호하는 굽은 검. 직접 베는 것뿐만 아니라 부메랑처럼 던질 수도 있다.",
+        "common_locations": [
+            "하일리아호",
+            "라넬 습원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lizal_boomerang/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 14,
+            "defense": 0
+        }
+    },
+    {
+        "id": 228,
+        "kname": "강화 리잘부메랑",
+        "name": "lizal forked boomerang",
+        "description": "블루 리잘포스가 선호하는 검. 날이 2장이라 평범한 리잘부메랑보다 베어 내는 힘이 강하며 던져도 다시 돌아온다.",
+        "common_locations": [
+            "겔드 사막",
+            "타반타 변두리"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lizal_forked_boomerang/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 24,
+            "defense": 0
+        }
+    },
+    {
+        "id": 229,
+        "kname": "삼지 리잘부메랑",
+        "name": "lizal tri-boomerang",
+        "description": "날의 수가 더 늘어나 공격력이 높아진 검. 부메랑으로도 쓸 수 있지만 다루기 어려워 전투에 뛰어난 블랙 리잘포스가 주로 갖고 다닌다.",
+        "common_locations": [
+            "헤브라산",
+            "추낙 고원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lizal_tri-boomerang/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 36,
+            "defense": 0
+        }
+    },
+    {
+        "id": 230,
+        "kname": "가디언 나이프",
+        "name": "guardian sword",
+        "description": "소형 가디언이 장비하는 검. 고대 기술이 사용된 푸른 검신을 지녔다. 내구성은 별로 좋지 않다.",
+        "common_locations": [
+            "올딘 협곡",
+            "타반타 변두리"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_sword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 20,
+            "defense": 0
+        }
+    },
+    {
+        "id": 231,
+        "kname": "가디언 나이프+",
+        "name": "guardian sword+",
+        "description": "보다 위력이 강화된 가디언 나이프. 높은 절단력이 한층 강화되었으며 내구성도 약간 개선됐다.",
+        "common_locations": [
+            "겔드 고지",
+            "추낙 고원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_sword+/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 30,
+            "defense": 0
+        }
+    },
+    {
+        "id": 232,
+        "kname": "가디언 나이프++",
+        "name": "guardian sword++",
+        "description": "최대치까지 위력이 강화된 가디언 나이프. 두꺼운 갑옷조차 가르는 공격력을 갖추었다. 위력에 맞춰 검신도 커졌다.",
+        "common_locations": [
+            "헤브라산",
+            "추낙 고원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_sword++/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 40,
+            "defense": 0
+        }
+    },
+    {
+        "id": 233,
+        "kname": "라이넬의 검",
+        "name": "lynel sword",
+        "description": "라이넬이 쓰는 금속 검. 벤다기보단 뭉갤 목적으로 만들어졌다. 인간이 다루기엔 상당히 무겁지만 공격력은 높다.",
+        "common_locations": [
+            "라넬 대수원",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lynel_sword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 24,
+            "defense": 0
+        }
+    },
+    {
+        "id": 234,
+        "kname": "야수왕의 검",
+        "name": "mighty lynel sword",
+        "description": "날이 늘어 공격력이 향상된 라이넬의 검. 스치듯 휘두르기만 해도 적을 양단할 수 있다고 한다.",
+        "common_locations": [
+            "하이랄 평원",
+            "라넬 대수원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mighty_lynel_sword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 36,
+            "defense": 0
+        }
+    },
+    {
+        "id": 235,
+        "kname": "야수신의 검",
+        "name": "savage lynel sword",
+        "description": "하얀 갈기의 라이넬이 든 흉악한 검. 거칠고 두꺼운 날은 그 아무리 막강한 적이라도 가뿐히 찍어 낼 공격력을 지녔다.",
+        "common_locations": [
+            "하이랄 평원",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/savage_lynel_sword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 58,
+            "defense": 0
+        }
+    },
+    {
+        "id": 236,
+        "kname": "파이어 로드",
+        "name": "fire rod",
+        "description": "고대 마법사가 만들었다고 전해지는 불덩이를 만들어 내는 마법 지팡이. 직접 타격하면 금방 망가져 버리니 주의.",
+        "common_locations": [
+            "하이랄 평원",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fire_rod/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 10,
+            "defense": 0
+        }
+    },
+    {
+        "id": 237,
+        "kname": "메테오 로드",
+        "name": "meteor rod",
+        "description": "고대 마법사가 금지된 주술로 만들었다고 전해지는 세 개의 화염구를 동시에 만들어 내는 지팡이. 봉인된 불의 힘이 다하면 망가져 버린다.",
+        "common_locations": [
+            "하이랄 평원",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/meteor_rod/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 10,
+            "defense": 0
+        }
+    },
+    {
+        "id": 238,
+        "kname": "아이스 로드",
+        "name": "ice rod",
+        "description": "헤브라 산맥의 얼음을 정제하여 만들어졌다는 냉기를 만들어 내는 마법 지팡이. 직접 공격엔 적합하지 않다.",
+        "common_locations": [
+            "겔드 고지",
+            "올딘 협곡"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ice_rod/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 5,
+            "defense": 0
+        }
+    },
+    {
+        "id": 239,
+        "kname": "프리즈 로드",
+        "name": "blizzard rod",
+        "description": "헤브라 산 정상의 얼음을 정제하여 만들어졌다는 초저온의 냉기를 광범위로 발사하는 마법 지팡이. 봉인된 냉기가 다하면 산산조각이 난다.",
+        "common_locations": [
+            "겔드 고지",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/blizzard_rod/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 10,
+            "defense": 0
+        }
+    },
+    {
+        "id": 240,
+        "kname": "일렉트로 로드",
+        "name": "lightning rod",
+        "description": "하이랄 구릉의 낙뢰를 보주에 가두었다고 전해지는 마법 지팡이. 전기로 된 구슬을 쏠 수 있다. 타격 공격엔 적합하지 않다.",
+        "common_locations": [
+            "서하테르",
+            "하이랄 구릉"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lightning_rod/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 5,
+            "defense": 0
+        }
+    },
+    {
+        "id": 241,
+        "kname": "볼티지 로드",
+        "name": "thunderstorm rod",
+        "description": "하이랄 구릉의 강렬한 낙뢰를 보주에 가두었다고 전해지는 마법 지팡이. 전기로 된 구슬을 3면으로 쓸 수 있다. 봉인된 힘이 다하면 망가져 버린다.",
+        "common_locations": [
+            "하이랄 평원",
+            "하이랄 구릉"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/thunderstorm_rod/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 10,
+            "defense": 0
+        }
+    },
+    {
+        "id": 242,
+        "kname": "참수도",
+        "name": "vicious sickle",
+        "description": "이가단이 쓰는 한손검. 반달 모양의 날은 참수를 위한 모양이라 하며, 그들의 무서움을 상징하고 있다. 내구성은 낮은 편이다.",
+        "common_locations": [
+            "겔드 고지",
+            "겔드 사막"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/vicious_sickle/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 16,
+            "defense": 0
+        }
+    },
+    {
+        "id": 243,
+        "kname": "귀원도",
+        "name": "demon carver",
+        "description": "이가단에 의해 만들어진 흉기. 표적의 숨통을 확실히 끊어놓기 위해 살상에 특화된 형태는 보는 이를 공포에 떨게 한다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/demon_carver/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 40,
+            "defense": 0
+        }
+    },
+    {
+        "id": 244,
+        "kname": "일격의 검",
+        "name": "one-hit obliterator",
+        "description": "일격 필살이지만 사용자도 일격에 목숨을 잃는 검. 2번 쓰면 검이 빛을 잃어 일격에 해치울 수 없지만 잠시 시간이 지나면 다시 빛을 되찾는다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/one-hit_obliterator/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 1000000000,
+            "defense": 0
+        }
+    },
+    {
+        "id": 245,
+        "kname": "보코블린의 뼈",
+        "name": "bokoblin arm",
+        "description": "잘려 나가도 계속 움직이는 섬뜩한 팔의 뼈. 별로 주머니에 넣어 두고 싶지 않다. 오래돼 약화된 상태라 금방 망가진다.",
+        "common_locations": [
+            "하이랄전역"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/bokoblin_arm/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 5,
+            "defense": 0
+        }
+    },
+    {
+        "id": 246,
+        "kname": "리잘포스의 뼈",
+        "name": "lizalfos arm",
+        "description": "죽어도 계속 움직이는 스탈 리잘포스의 뼈. 휘두르면 무기로 쓸 수 있으나 쉽게 망가진다. 등에 메고 있을 때 움직여서 신경 쓰인다...",
+        "common_locations": [
+            "하이랄전역"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lizalfos_arm/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 12,
+            "defense": 0
+        }
+    },
+    {
+        "id": 247,
+        "kname": "코로그의 부채",
+        "name": "korok leaf",
+        "description": "나무를 베면 종종 떨어지는 수수께끼의 나뭇잎. 한 번만 휘둘러도 큰 바람을 일으켜 가벼운 것이라면 날려 버릴 수 있다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/korok_leaf/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 1,
+            "defense": 0
+        }
+    },
+    {
+        "id": 248,
+        "kname": "밭의 괭이",
+        "name": "farming hoe",
+        "description": "흙을 파내고 밭을 가는 데 쓰이는 농기구. 밭일을 감당하게끔 튼튼히 만들어졌으며 사용법에 따라선 충분히 무기가 된다.",
+        "common_locations": [
+            "동하테르",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/farming_hoe/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 16,
+            "defense": 0
+        }
+    },
+    {
+        "id": 249,
+        "kname": "배의 노",
+        "name": "boat oar",
+        "description": "어선에 비치되어 있는 도구. 본디 무기는 아니지만 호신용으론 충분히 사용 가능. 물에 강한 목재로 제작되어 제법 튼튼하다.",
+        "common_locations": [
+            "동하테르",
+            "하테르해"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/boat_oar/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 14,
+            "defense": 0
+        }
+    },
+    {
+        "id": 250,
+        "kname": "나무꾼의 도끼",
+        "name": "woodcutter's axe",
+        "description": "산의 나무꾼이 애용하는 나무를 베는 도구. 재빨리 나무를 벨 수 있다.",
+        "common_locations": [
+            "서하테르",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/woodcutter's_axe/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 3,
+            "defense": 0
+        }
+    },
+    {
+        "id": 251,
+        "kname": "달인의 도끼",
+        "name": "double axe",
+        "description": "전투에 특화된 양날 도끼. 무거워서 잘 다루기엔 숙련된 기술이 필요하다. 그래서 언제부턴가 달인이라는 이름이 붙게 되었다.",
+        "common_locations": [
+            "서하테르",
+            "겔드 고지"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/double_axe/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 18,
+            "defense": 0
+        }
+    },
+    {
+        "id": 252,
+        "kname": "철 해머",
+        "name": "iron sledgehammer",
+        "description": "철로 된 커다란 쇠망치. 원래는 광석을 깨뜨리는 데 사용되었지만 무기로서도 제법 강하다.",
+        "common_locations": [
+            "올딘 협곡",
+            "추낙 고원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/iron_sledgehammer/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 12,
+            "defense": 0
+        }
+    },
+    {
+        "id": 253,
+        "kname": "빅부메랑",
+        "name": "giant boomerang",
+        "description": "양손으로 휘둘러야 할 만큼 거대한 부메랑. 사냥용이었지만 전투용으로 개량되었으며 휘어진 안쪽에 날이 있다. 굉장히 다루기 어렵다.",
+        "common_locations": [
+            "서하테르",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/giant_boomerang/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 25,
+            "defense": 0
+        }
+    },
+    {
+        "id": 254,
+        "kname": "여행자의 양손검",
+        "name": "traveler's claymore",
+        "description": "각지를 여행하는 모험자가 애용하는 양손검. 몬스터와의 전투에선 그 중량을 이용해서 적이 장비한 방패를 날릴 수 있다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/traveler's_claymore/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 10,
+            "defense": 0
+        }
+    },
+    {
+        "id": 255,
+        "kname": "병사의 양손검",
+        "name": "soldier's claymore",
+        "description": "전투용으로 개량된 양손검. 크고 무거워 다루긴 어렵지만 튼튼하게 만들어져 오래 싸울 수 있다.",
+        "common_locations": [
+            "하이랄 평원",
+            "필로네 초원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/soldier's_claymore/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 20,
+            "defense": 0
+        }
+    },
+    {
+        "id": 256,
+        "kname": "기사의 양손검",
+        "name": "knight's claymore",
+        "description": "하이랄 성을 지키던 기사들 중에서도 특히 힘에 자신 있던 자가 다루던 대검. 베는 맛도 아주 훌륭하다.",
+        "common_locations": [
+            "겔드 사막",
+            "타반타 변두리"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/knight's_claymore/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 38,
+            "defense": 0
+        }
+    },
+    {
+        "id": 257,
+        "kname": "왕가의 양손검",
+        "name": "royal claymore",
+        "description": "하이랄 왕가 직속 부대에게 하사된 대검. 그 검에서 펼쳐지는 강력한 공격은 상대의 마음까지 꺾어 버렸다고 한다.",
+        "common_locations": [
+            "타반타 변두리",
+            "겔드 사막"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/royal_claymore/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 52,
+            "defense": 0
+        }
+    },
+    {
+        "id": 258,
+        "kname": "조라의 대검",
+        "name": "silver longsword",
+        "description": "조라족이 특수한 금속을 사용하여 제작한 대검. 조라는 창을 선호하기 때문에 많이 쓰이진 않지만 아름다운 디자인으로 하일리아인에게 인기가 좋다.",
+        "common_locations": [
+            "라넬 대수원",
+            "라넬 습원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/silver_longsword/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 22,
+            "defense": 0
+        }
+    },
+    {
+        "id": 259,
+        "kname": "돌 크러셔",
+        "name": "cobble crusher",
+        "description": "단단하고 두꺼운 금속으로 제작된 고론의 양손검. 날이 서지 않아 베는 맛은 전혀 없지만 그 강도와 중량으로 상대를 뭉갤 수 있다.",
+        "common_locations": [
+            "올딘 협곡",
+            "올딘 산맥"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/cobble_crusher/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 15,
+            "defense": 0
+        }
+    },
+    {
+        "id": 260,
+        "kname": "바위 크러셔",
+        "name": "stone smasher",
+        "description": "고론 시티 근처에서 채굴된 금속으로 제작된 양손검. 검의 끝부분에 중심이 있어 원심력과 중량을 이용하여 적을 분쇄한다.",
+        "common_locations": [
+            "올딘 협곡",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/stone_smasher/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 42,
+            "defense": 0
+        }
+    },
+    {
+        "id": 261,
+        "kname": "거암 크러셔",
+        "name": "boulder breaker",
+        "description": "걸 다르케르가 쓰던 최고의 강도를 자랑하는 대검. 다르케르는 이 대검을 가볍게 휘둘렀지만 인간이 다루기엔 상당한 필요로 한다. 신수 바ㆍ루다니아를 정화하고 나서 브루도를 만나면 획득할 수 있다. 바위록 계열을 상대로 굉장한 효율을 자랑한다.",
+        "common_locations": [
+            "올딘 협곡"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/boulder_breaker/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 60,
+            "defense": 0
+        }
+    },
+    {
+        "id": 262,
+        "kname": "겔드의 양손검",
+        "name": "golden claymore",
+        "description": "겔드족 병사 중에서도 검술이 뛰어난 자만이 장비할 수 있었던 대검. 보기보다 가볍게 만들어져 다루기 쉽다.",
+        "common_locations": [
+            "겔드 고지",
+            "하이랄 구릉"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/golden_claymore/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 28,
+            "defense": 0
+        }
+    },
+    {
+        "id": 263,
+        "kname": "잔심의 장도",
+        "name": "eightfold longblade",
+        "description": "시커족에게만 전해져 내려오는 외날 검. 전통적인 기술로 정성스레 제련되어 굉장히 날카롭다.",
+        "common_locations": [
+            "서하테르",
+            "라넬 대수원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/eightfold_longblade/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 32,
+            "defense": 0
+        }
+    },
+    {
+        "id": 264,
+        "kname": "무심의 대검",
+        "name": "edge of duality",
+        "description": "시커족의 제련 기술로 제작된 희귀한 양날 검. 외날 검 사용에 익숙지 않은 하이랄 기사를 위해 제작되었다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/edge_of_duality/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 50,
+            "defense": 0
+        }
+    },
+    {
+        "id": 265,
+        "kname": "고대 병기・대검",
+        "name": "ancient bladesaw",
+        "description": "고대 시커족의 기술이 사용된 양손검. 푸른 날이 검신을 따라 회전하는 특수한 구조이며 뛰어난 절단력으로 적을 가른다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ancient_bladesaw/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 55,
+            "defense": 0
+        }
+    },
+    {
+        "id": 266,
+        "kname": "녹슨 양손검",
+        "name": "rusty claymore",
+        "description": "오랜 시간 방치되어 녹이 슨 대검. 무기로 쓸 수는 있지만 내구성이 낮아 조금만 휘둘러도 간단히 망가져 버린다.",
+        "common_locations": [
+            "하이랄 평원",
+            "올딘 협곡"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/rusty_claymore/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 12,
+            "defense": 0
+        }
+    },
+    {
+        "id": 267,
+        "kname": "근위의 양손검",
+        "name": "royal guard's claymore",
+        "description": "시커족이 고대 기술의 정수를 모아 제작한 대검. 재앙으로부터 왕국을 지키기 위해 준비했지만 내구성이 터무니없어 실용성은 낮았다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/royal_guard's_claymore/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 72,
+            "defense": 0
+        }
+    },
+    {
+        "id": 268,
+        "kname": "화염의 대검",
+        "name": "great flameblade",
+        "description": "고대의 고론 대장장이가 데스마운틴의 불꽃을 사용하여 제련했다고 전해지는 마법 검. 검신이 붉게 빛날 때 휘두르면 불꽃을 내뿜는다.",
+        "common_locations": [
+            "하이랄 평원",
+            "올딘 협곡"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/great_flameblade/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 34,
+            "defense": 0
+        }
+    },
+    {
+        "id": 269,
+        "kname": "빙설의 대검",
+        "name": "great frostblade",
+        "description": "헤브라 산맥의 영구 동토에 잠든 광석을 정제하여 제작되었다고 전해지는 마법 검. 검신이 푸르게 빛날 때 휘두르면 냉기를 내뿜는다.",
+        "common_locations": [
+            "헤브라산",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/great_frostblade/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 30,
+            "defense": 0
+        }
+    },
+    {
+        "id": 270,
+        "kname": "뇌전의 대검",
+        "name": "great thunderblade",
+        "description": "먼 옛날, 하이랄 왕가를 섬기던 대장장이가 하이랄 구릉의 낙뢰를 써서 제련했다고 전해지는 마법 검. 금색으로 빛날 때 전기를 발생시킨다",
+        "common_locations": [
+            "하이랄 평원",
+            "타반타 변두리"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/great_thunderblade/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 32,
+            "defense": 0
+        }
+    },
+    {
+        "id": 271,
+        "kname": "보코배트",
+        "name": "boko bat",
+        "description": "보코블린이 본능대로 만든 투박한 곤봉. 공격 부위에 따라선 위력이 상당하며 상대의 방패를 날려 버릴 수 있다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/boko_bat/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 6,
+            "defense": 0
+        }
+    },
+    {
+        "id": 272,
+        "kname": "가시 보코배트",
+        "name": "spiked boko bat",
+        "description": "보코블린이 공격력을 높이기 위해 동물의 뼈로 만든 가시를 붙인 보코배트. 실제로 직격당하면 제법 대미지를 받는다.",
+        "common_locations": [
+            "필로네 초원",
+            "동하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/spiked_boko_bat/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 18,
+            "defense": 0
+        }
+    },
+    {
+        "id": 273,
+        "kname": "용골 보코배트",
+        "name": "dragonbone boko bat",
+        "description": "보코배트에 화석의 뼈를 조합한 곤봉. 강적을 처리하기에 충분한 강도와 공격력을 지녔고 보코블린 중에서도 일부의 강자만이 가지고 있다.",
+        "common_locations": [
+            "하이랄 구릉",
+            "하테르해"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/dragonbone_boko_bat/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 36,
+            "defense": 0
+        }
+    },
+    {
+        "id": 274,
+        "kname": "모리블린배트",
+        "name": "moblin club",
+        "description": "모리블린이 선호하는 간소한 곤봉. 단단한 나무를 재료로 만들었지만 제작 솜씨가 어설퍼 금방 망가져 버린다.",
+        "common_locations": [
+            "겔드 고지",
+            "필로네 초원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/moblin_club/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 9,
+            "defense": 0
+        }
+    },
+    {
+        "id": 275,
+        "kname": "가시 모리블린배트",
+        "name": "spiked moblin club",
+        "description": "개량된 모리블린의 양손 무기. 가격되는 부위에 동물의 뼈를 동여매어 상대에게 현격히 높은 대미지를 줄 수 있다.",
+        "common_locations": [
+            "하이랄 평원",
+            "추낙 고원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/spiked_moblin_club/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 27,
+            "defense": 0
+        }
+    },
+    {
+        "id": 276,
+        "kname": "용골 모리블린배트",
+        "name": "dragonbone moblin club",
+        "description": "태고의 짐승 뼈를 매단 모리블린배트. 도끼처럼 무게 중심이 끝부분에 있으며 이걸 쓰는 모리블린은 전투에 능하기에 위험하다.",
+        "common_locations": [
+            "헤브라산",
+            "올딘 산맥"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/dragonbone_moblin_club/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 45,
+            "defense": 0
+        }
+    },
+    {
+        "id": 277,
+        "kname": "가디언 액스",
+        "name": "ancient battle axe",
+        "description": "소형 가디언이 장비하는 무기. 넓고 얇은 도신은 고대의 힘으로 제작되어 높은 공격력을 지녔지만 구조상 망가지기 쉽다.",
+        "common_locations": [
+            "겔드 사막",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ancient_battle_axe/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 30,
+            "defense": 0
+        }
+    },
+    {
+        "id": 278,
+        "kname": "가디언 액스+",
+        "name": "ancient battle axe+",
+        "description": "출력이 강화된 가디언 액스. 이 무기는 전투 외에도 장애물을 제거하여 진로를 확보하는 용도도 있었을 거라 여기고 있다.",
+        "common_locations": [
+            "추낙 고원",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ancient_battle_axe+/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 45,
+            "defense": 0
+        }
+    },
+    {
+        "id": 279,
+        "kname": "가디언 액스++",
+        "name": "ancient battle axe++",
+        "description": "적을 일격에 가르기 위해 최대치까지 출력이 강화된 가디언 액스. 금속제 무기로는 내기 힘든 높은 절단력을 고대 기술이 실현하고 있다.",
+        "common_locations": [
+            "헤브라산",
+            "겔드 고지"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ancient_battle_axe++/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 60,
+            "defense": 0
+        }
+    },
+    {
+        "id": 280,
+        "kname": "라이넬의 대검",
+        "name": "lynel crusher",
+        "description": "라이넬이 쓰는 양손 무기. 검이라기보단 금속 덩어리에 가깝지만, 라이넬의 힘으로 휘두르면 웬만한 것들은 모두 분쇄해 버리는 흉기가 된다.",
+        "common_locations": [
+            "겔드 고지",
+            "타반타 변두리"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lynel_crusher/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 36,
+            "defense": 0
+        }
+    },
+    {
+        "id": 281,
+        "kname": "야수왕의 대검",
+        "name": "mighty lynel crusher",
+        "description": "강도 높은 금속을 끝부분에 달아서 타격력과 내구성이 증가한 라이넬의 양손 무기. 압도적인 중량으로 방패나 갑옷째로 적을 뭉갠다.",
+        "common_locations": [
+            "겔드 고지",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mighty_lynel_crusher/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 54,
+            "defense": 0
+        }
+    },
+    {
+        "id": 282,
+        "kname": "야수신의 대검",
+        "name": "savage lynel crusher",
+        "description": "데스마운틴 정상에서 채집되는 특수한 금속을 사용하여 무시무시한 중량을 갖게 된 양손 무기. 내리꽂는 일격은 비교할 수 없는 파괴력을 자랑한다.",
+        "common_locations": [
+            "헤브라산",
+            "올딘 산맥"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/savage_lynel_crusher/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 78,
+            "defense": 0
+        }
+    },
+    {
+        "id": 283,
+        "kname": "풍참도",
+        "name": "windcleaver",
+        "description": "이가단 간부가 쓰는 색다른 칼. 숙련된 사용자가 정신을 통일하여 휘두르면 특수한 형태로 인해 진공의 날을 만들어 낸다.",
+        "common_locations": [
+            "겔드 고지",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/windcleaver/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 40,
+            "defense": 0
+        }
+    },
+    {
+        "id": 284,
+        "kname": "모리블린의 뼈",
+        "name": "moblin arm",
+        "description": "팔만 남아도 계속 움직이는 모리블린의 뼈. 길고 굵은 뼈는 무기로 사용하기에 충분한 타격력을 지녔지만, 굉장히 물러 잘 망가진다.",
+        "common_locations": [
+            "하이랄전역"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/moblin_arm/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 15,
+            "defense": 0
+        }
+    },
+    {
+        "id": 285,
+        "kname": "나무 대걸레",
+        "name": "wooden mop",
+        "description": "바닥 청소에 꼭 필요한 청소 도구. 장인이 손수 만들어 튼튼하다. 무기로도 어느 정도 쓸 수 있다.",
+        "common_locations": [
+            "동하테르",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/wooden_mop/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 5,
+            "defense": 0
+        }
+    },
+    {
+        "id": 286,
+        "kname": "밭의 쇠스랑",
+        "name": "farmer's pitchfork",
+        "description": "건초를 효율적으로 모으기 위한 농기구. 누구든 쓸 수 있도록 가볍게 제작됐다. 4개로 갈라진 끝부분은 제법 날카롭다.",
+        "common_locations": [
+            "동하테르",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/farmer's_pitchfork/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 7,
+            "defense": 0
+        }
+    },
+    {
+        "id": 287,
+        "kname": "어부의 작살",
+        "name": "fishing harpoon",
+        "description": "주로 대형 물고기를 잡을 때 쓰는 도구. 날카롭고 뾰족한 끝을 가져 무기로도 사용 가능하다. 이걸로 생선을 잡을 수 있어야 어부라 할 수 있다.",
+        "common_locations": [
+            "동하테르",
+            "하일리아호"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fishing_harpoon/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 8,
+            "defense": 0
+        }
+    },
+    {
+        "id": 288,
+        "kname": "투척 창",
+        "name": "throwing spear",
+        "description": "투척에 특화된 특수한 창. 창끝과 손잡이의 균형을 잡아 보통 창보다 멀리 던질 수 있게 설계되었다.",
+        "common_locations": [
+            "서하테르",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/throwing_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 6,
+            "defense": 0
+        }
+    },
+    {
+        "id": 289,
+        "kname": "여행자의 창",
+        "name": "traveler's spear",
+        "description": "여행자가 늑대와 같은 야생 동물로부터 몸을 지키기 위해 휴대하는 호신용 창. 손에 쥐기 쉽고 사용감이 좋다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/traveler's_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 3,
+            "defense": 0
+        }
+    },
+    {
+        "id": 290,
+        "kname": "병사의 창",
+        "name": "soldier's spear",
+        "description": "성의 병사가 쓰던 장창. 자유자재로 쓰기 위해선 충분한 훈련이 필요하다. 철로 된 창끝은 튼튼하여 불이 붙어도 타지 않는다.",
+        "common_locations": [
+            "하이랄 평원",
+            "필로네 초원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/soldier's_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 7,
+            "defense": 0
+        }
+    },
+    {
+        "id": 291,
+        "kname": "기사의 창",
+        "name": "knight's halberd",
+        "description": "무기에 숙련된 기사를 위해 제작된 창. 도끼 같은 날이 달린 창 머리가 특징. 마상에서 쓰는 일도 많았다고 한다.",
+        "common_locations": [
+            "타반타 변두리",
+            "겔드 사막"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/knight's_halberd/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 13,
+            "defense": 0
+        }
+    },
+    {
+        "id": 292,
+        "kname": "왕가의 창",
+        "name": "royal halberd",
+        "description": "알현의 방 등, 성 안의 중요한 장소를 지키는 임무를 수행하던 기사에게 하사되었던 창. 왕가 전속 장인에 의해 아름다운 장식도 가미되었다.",
+        "common_locations": [
+            "겔드 고지",
+            "타반타 변두리"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/royal_halberd/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 26,
+            "defense": 0
+        }
+    },
+    {
+        "id": 293,
+        "kname": "숲에 사는 자의 창",
+        "name": "forest dweller's spear",
+        "description": "코로그족이 인간을 위해 제작했다고 전해지는 창. 가볍고 튼튼한 나무를 재료로 사용해 다루기 쉽다. 창끝은 특히 더 단단한 나무를 깎아 만들었다.",
+        "common_locations": [
+            "하이랄 대삼림",
+            "하이랄 구릉"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/forest_dweller's_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 11,
+            "defense": 0
+        }
+    },
+    {
+        "id": 294,
+        "kname": "조라의 창",
+        "name": "zora spear",
+        "description": "조라족이 일반적으로 사용하는 창. 고기잡이 외에도 침입자로부터 마을을 지키기 위해 사용하며 특수한 금속으로 제작되어 보기보다 가볍다.",
+        "common_locations": [
+            "라넬 대수원",
+            "하일리아호"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/zora_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 9,
+            "defense": 0
+        }
+    },
+    {
+        "id": 295,
+        "kname": "은린의 창",
+        "name": "silverscale spear",
+        "description": "조라족 중에서도 전투가 특기인 자가 쓰는 창. 물고기 꼬리처럼 아름다운 디자인의 날을 지녔다. 창끝은 단단한 비늘도 관통할 정도로 날카롭다. 조라 마을 밑에 스폰 장소가 있으며 하이랄 성 식당의 모리블린이 사용하고 있다.",
+        "common_locations": [
+            "추낙 고원",
+            "라넬 대수원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/silverscale_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 12,
+            "defense": 0
+        }
+    },
+    {
+        "id": 296,
+        "kname": "제사의 창",
+        "name": "ceremonial trident",
+        "description": "미파가 쓰던 광린의 창을 모방한 창. 겉보기엔 광린의 창과 꼭 닮았지만 공격 성능이나 내구성은 약간 떨어진다.",
+        "common_locations": [
+            "라넬 대수원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ceremonial_trident/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 14,
+            "defense": 0
+        }
+    },
+    {
+        "id": 297,
+        "kname": "광린의 창",
+        "name": "lightscale trident",
+        "description": "영걸 미파가 애용하던 우아한 명창. 치유가 특기였던 미파는 창술도 일류였다고 전해진다.",
+        "common_locations": [
+            "라넬 대수원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lightscale_trident/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 22,
+            "defense": 0
+        }
+    },
+    {
+        "id": 298,
+        "kname": "착암봉",
+        "name": "drillshaft",
+        "description": "고론족이 만든 금속 부품을 이용해 제작된 무기. 끝부분에 굴착용 부품이 사용되어 단단한 광석도 간단히 깨뜨릴 수 있다.",
+        "common_locations": [
+            "올딘 협곡",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/drillshaft/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 14,
+            "defense": 0
+        }
+    },
+    {
+        "id": 299,
+        "kname": "날개깃의 창",
+        "name": "feathered spear",
+        "description": "리토족 병사가 쓰는 창. 하늘을 날며 쓸 수 있도록 가볍고 튼튼한 재료로 제작되었다.",
+        "common_locations": [
+            "타반타 변두리",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/feathered_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 10,
+            "defense": 0
+        }
+    },
+    {
+        "id": 300,
+        "kname": "겔드의 창",
+        "name": "gerudo spear",
+        "description": "겔드족 병사에게 널리 쓰이는 창. 창 머리가 무거워 다루기 힘들지만, 장신인 겔드족이 사용하면 믿음직스러운 힘을 발휘한다.",
+        "common_locations": [
+            "겔드 사막",
+            "겔드 고지"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/gerudo_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 16,
+            "defense": 0
+        }
+    },
+    {
+        "id": 301,
+        "kname": "만곡의 창",
+        "name": "serpentine spear",
+        "description": "독특한 모양의 창 머리를 가진 창. 시커족 창의 달인은 굽은 날을 걸듯이 베어 내는 방식을 사용했다고 전해진다.",
+        "common_locations": [
+            "동하테르",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/serpentine_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 12,
+            "defense": 0
+        }
+    },
+    {
+        "id": 302,
+        "kname": "고대 병기・창",
+        "name": "ancient spear",
+        "description": "가디언에게 사용된 고대 기술의 연구 성과를 이용해 제작된 창. 창끝의 푸른 날은 높은 관통력을 가지고 있다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ancient_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 30,
+            "defense": 0
+        }
+    },
+    {
+        "id": 303,
+        "kname": "녹슨 창",
+        "name": "rusty halberd",
+        "description": "먼 옛날, 기사가 사용했을 거라 짐작되는 녹슨 창. 오랫동안 방치되어 비바람을 맞은 탓인지 창 머리에 흠집이 많고 내구성이 낮다.",
+        "common_locations": [
+            "하이랄 평원",
+            "하이랄 대삼림"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/rusty_halberd/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 5,
+            "defense": 0
+        }
+    },
+    {
+        "id": 304,
+        "kname": "근위의 창",
+        "name": "royal guard's spear",
+        "description": "시커족이 재앙에 대비하여 고대 기술을 활용해 제작한 창. 굉장히 높은 공격력을 지녔지만 내구성이 낮아 실제 전투에선 쓰이지 않았다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/royal_guard's_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 32,
+            "defense": 0
+        }
+    },
+    {
+        "id": 305,
+        "kname": "화염의 창",
+        "name": "flamespear",
+        "description": "데스마운틴의 용암을 특수한 기술로 정제하여 제작했다고 전해지는 마법 창. 붉게 빛날 땐, 공격과 동시에 불꽃을 일으킨다.",
+        "common_locations": [
+            "하이랄 평원",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/flamespear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 24,
+            "defense": 0
+        }
+    },
+    {
+        "id": 306,
+        "kname": "빙설의 창",
+        "name": "frostspear",
+        "description": "헤브라 산맥에 잠든 태고의 얼음으로 제련했다고 전해지는 마법 창. 창끝이 푸르스름하게 빛날 때 공격하면 냉기를 내뿜어 상대를 얼어붙게 만든다.",
+        "common_locations": [
+            "헤브라산",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/frostspear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 20,
+            "defense": 0
+        }
+    },
+    {
+        "id": 307,
+        "kname": "뇌전의 창",
+        "name": "thunderspear",
+        "description": "번개의 대지에 내려치는 낙뢰를 창끝에 담아 제작했다고 전해지는 마법 창. 금색 빛이 가득 찼을 때 공격하면 전격을 내뿜는다.",
+        "common_locations": [
+            "하이랄 구릉",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/thunderspear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 22,
+            "defense": 0
+        }
+    },
+    {
+        "id": 308,
+        "kname": "보코창",
+        "name": "boko spear",
+        "description": "굵은 나뭇가지를 거칠게 깎아 만든 투박한 창. 고기나 생선을 꿰어 불에 굽기도 하는 모양이다.",
+        "common_locations": [
+            "서하테르",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/boko_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 2,
+            "defense": 0
+        }
+    },
+    {
+        "id": 309,
+        "kname": "가시 보코창",
+        "name": "spiked boko spear",
+        "description": "날카로운 동물의 뼈를 창 머리로 쓴 보코블린의 창. 금속 창끝을 가진 창보다 가벼워서 보기보다 다루기 쉽다.",
+        "common_locations": [
+            "필로네 초원",
+            "동하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/spiked_boko_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 6,
+            "defense": 0
+        }
+    },
+    {
+        "id": 310,
+        "kname": "용골 보코창",
+        "name": "dragonbone boko spear",
+        "description": "단단한 화석의 뼈를 창끝에 동여맨 창. 화석의 엄니가 적을 조이도록 만들어졌다. 이 창을 장비한 보코블린에겐 주의가 필요하다.",
+        "common_locations": [
+            "하테르해",
+            "하이랄 구릉"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/dragonbone_boko_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 12,
+            "defense": 0
+        }
+    },
+    {
+        "id": 311,
+        "kname": "모리블린창",
+        "name": "moblin spear",
+        "description": "모리블린이 쓰는 목제 창. 창 머리는 숲의 나무를 거칠게 깎아 냈을 뿐이라 찌르는 힘도 내구성도 높지 않다.",
+        "common_locations": [
+            "필로네 초원",
+            "겔드 고지"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/moblin_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 4,
+            "defense": 0
+        }
+    },
+    {
+        "id": 312,
+        "kname": "가시 모리블린창",
+        "name": "spiked moblin spear",
+        "description": "뿔이 난 동물의 뼈를 창 머리에 동여맨 모리블린의 창. 조잡하지만 날카로운 뿔의 찌르기는 무시할 수 없는 관통력을 지녔다.",
+        "common_locations": [
+            "겔드 고지",
+            "추낙 고원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/spiked_moblin_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 9,
+            "defense": 0
+        }
+    },
+    {
+        "id": 313,
+        "kname": "용골 모리블린창",
+        "name": "dragonbone moblin spear",
+        "description": "전투에 익숙한 모리블린이 애용하는 창. 단단한 화석의 뼈가 몇 개나 창끝에 사용되었다. 뼈에 난 가시가 창의 찌르기 위력을 높이고 있다.",
+        "common_locations": [
+            "헤브라산",
+            "올딘 산맥"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/dragonbone_moblin_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 15,
+            "defense": 0
+        }
+    },
+    {
+        "id": 314,
+        "kname": "리잘스피어",
+        "name": "lizal spear",
+        "description": "일반 리잘포스가 장비하는 창. 물결치는 듯한 창 머리의 날이 특징이다. 별로 튼튼하진 않아 오래 쓰기엔 불안하다.",
+        "common_locations": [
+            "라넬 습원",
+            "동하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lizal_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 7,
+            "defense": 0
+        }
+    },
+    {
+        "id": 315,
+        "kname": "강화 리잘스피어",
+        "name": "enhanced lizal spear",
+        "description": "어부의 작살 같은 창 머리를 가진 리잘포스의 창. 실제로 생선을 잡을 때에도 사용하는 모양이다. 날카로운 반격엔 주의가 필요하다.",
+        "common_locations": [
+            "타반타 변두리",
+            "겔드 사막"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/enhanced_lizal_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 12,
+            "defense": 0
+        }
+    },
+    {
+        "id": 316,
+        "kname": "쌍두 리잘스피어",
+        "name": "forked lizal spear",
+        "description": "리잘포스 중에서도 전투가 특기인 개체가 선호해 장비하는 창. 관통력은 별로 높지 않지만 물결치는 두 개의 날에 의한 열상은 타격이 크다.",
+        "common_locations": [
+            "올딘 협곡",
+            "추낙 고원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/forked_lizal_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 18,
+            "defense": 0
+        }
+    },
+    {
+        "id": 317,
+        "kname": "가디언 랜스",
+        "name": "guardian spear",
+        "description": "소형 가디언이 장비하는 창. 장비했을 때만 빛나는 창끝은 관통력이 높으며 고대 시커족의 발전된 기술력을 실감할 수 있다.",
+        "common_locations": [
+            "하이랄 평원",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 10,
+            "defense": 0
+        }
+    },
+    {
+        "id": 318,
+        "kname": "가디언 랜스+",
+        "name": "guardian spear+",
+        "description": "창끝이 더욱 커진 가디언 랜스. 좁은 곳에서의 사용을 고려해서인지 일반적인 하이랄의 창보다 손잡이가 약간 짧다.",
+        "common_locations": [
+            "겔드 고지",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_spear+/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 15,
+            "defense": 0
+        }
+    },
+    {
+        "id": 319,
+        "kname": "가디언 랜스++",
+        "name": "guardian spear++",
+        "description": "최대치까지 출력이 강화된 가디언 랜스. 고대 기술로 만들어진 창 머리는 찌르기에 특화돼 웬만한 방어구는 가뿐히 꿰뚫는 관통력을 지녔다.",
+        "common_locations": [
+            "헤브라산",
+            "추낙 고원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_spear++/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 20,
+            "defense": 0
+        }
+    },
+    {
+        "id": 320,
+        "kname": "라이넬의 창",
+        "name": "lynel spear",
+        "description": "거대한 곡도와 같은 창끝을 가진 라이넬의 창. 끝부분이 무거워 균형을 잡기 힘들지만 라이넬은 한 손으로 가뿐히 휘두른다.",
+        "common_locations": [
+            "겔드 고지",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lynel_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 14,
+            "defense": 0
+        }
+    },
+    {
+        "id": 321,
+        "kname": "야수왕의 창",
+        "name": "mighty lynel spear",
+        "description": "날카로움과 중량 모두 강화된 라이넬의 창. 평범한 인간은 들어 올리는 것도 일이지만 라이넬이 휘두르면 바위도 쪼개진다고 한다.",
+        "common_locations": [
+            "하이랄 대삼림",
+            "추낙 심부"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mighty_lynel_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 20,
+            "defense": 0
+        }
+    },
+    {
+        "id": 322,
+        "kname": "야수신의 창",
+        "name": "savage lynel spear",
+        "description": "하얀 갈기의 라이넬이 애용한다는 창. 도끼처럼 생긴 창끝을 가졌으며 그 엄청난 무게를 활용한 공격의 파괴력은 절대적이다.",
+        "common_locations": [
+            "겔드 고지",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/savage_lynel_spear/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 30,
+            "defense": 0
+        }
+    },
+    {
+        "id": 323,
+        "kname": "빛의 활",
+        "name": "bow of light",
+        "description": "마수 가논과의 결전을 앞두고 젤다에게 건네받은 활. 용사가 들면 빛이 모여, 재앙을 물리칠 화살이 된다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/bow_of_light/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 100,
+            "defense": 0
+        }
+    },
+    {
+        "id": 324,
+        "kname": "나무 활",
+        "name": "wooden bow",
+        "description": "소형 동물을 사냥하기 위해 제작된 목제 활. 몬스터와 싸우기엔 불안하다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/wooden_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 4,
+            "defense": 0
+        }
+    },
+    {
+        "id": 325,
+        "kname": "여행자의 활",
+        "name": "traveler's bow",
+        "description": "여행자가 사용하는 자그마한 호신용 활. 화살이 있으면 떨어져 있는 적을 공격할 수 있다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/traveler's_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 5,
+            "defense": 0
+        }
+    },
+    {
+        "id": 326,
+        "kname": "병사의 활",
+        "name": "soldier's bow",
+        "description": "전투용으로 공격력을 높인 활. 보다 큰 대미지를 입힐 수 있다. 나무로 만들어져 불이 붙으면 타 버린다.",
+        "common_locations": [
+            "하이랄 평원",
+            "필로네 초원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/soldier's_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 14,
+            "defense": 0
+        }
+    },
+    {
+        "id": 327,
+        "kname": "기사의 활",
+        "name": "knight's bow",
+        "description": "하이랄 성의 기사들이 사용했던 활. 다루기 편해서 안정된 사격이 가능하다. 금속제라 내구성도 뛰어나다.",
+        "common_locations": [
+            "겔드 사막",
+            "타반타 변두리"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/knight's_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 26,
+            "defense": 0
+        }
+    },
+    {
+        "id": 328,
+        "kname": "왕가의 활",
+        "name": "royal bow",
+        "description": "하이랄 기사 중에서도 특히 궁술이 특출난 이에게 하이랄 왕이 하사한 활. 화려한 디자인이 눈을 끌지만 사격 성능도 뛰어나다.",
+        "common_locations": [
+            "타반타 변두리",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/royal_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 38,
+            "defense": 0
+        }
+    },
+    {
+        "id": 329,
+        "kname": "숲에 사는 자의 활",
+        "name": "forest dweller's bow",
+        "description": "코로그족이 인간을 위해 제작했다고 전해지는 활. 잘 휘어지는 목재와 튼튼한 풀로 제작되어 간소한 외양과 달리 한 번에 여러 발을 쏠 수 있다.",
+        "common_locations": [
+            "타반타 변두리",
+            "하이랄 구릉"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/forest_dweller's_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 15,
+            "defense": 0
+        }
+    },
+    {
+        "id": 330,
+        "kname": "조라의 활",
+        "name": "silver bow",
+        "description": "조라족이 고기잡이 등에 사용하는 활. 사격 성능은 그리 좋지 않지만 특수한 금속으로 제작되어, 보기보다 내구성이 뛰어나다.",
+        "common_locations": [
+            "라넬 대수원",
+            "추낙 고원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/silver_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 15,
+            "defense": 0
+        }
+    },
+    {
+        "id": 331,
+        "kname": "제비의 활",
+        "name": "swallow bow",
+        "description": "리토족이 일반적으로 사용하는 활. 공중 사격에 적합하다. 활시위를 정교하게 만들어 보통 활보다 조금 더 빠르게 활시위를 당길 수 있다.",
+        "common_locations": [
+            "타반타 변두리",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/swallow_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 9,
+            "defense": 0
+        }
+    },
+    {
+        "id": 332,
+        "kname": "매의 활",
+        "name": "falcon bow",
+        "description": "리토족의 명장이 제작한 세련된 활. 공중전에 충중한 리토의 전사가 즐겨 사용한다. 일반적인 활보다 재빨리 활시위를 당길 수 있다.",
+        "common_locations": [
+            "타반타 변두리",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/falcon_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 20,
+            "defense": 0
+        }
+    },
+    {
+        "id": 333,
+        "kname": "참수리의 활",
+        "name": "great eagle bow",
+        "description": "영걸 리발이 쓰던 희대의 명궁. 질풍 같은 빠르기로 이 활을 쏘는 리발에게 공중전에서 대적할 수 있는 이는 없었다고 전해진다.",
+        "common_locations": [
+            "타반타 변두리"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/great_eagle_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 28,
+            "defense": 0
+        }
+    },
+    {
+        "id": 334,
+        "kname": "겔드의 활",
+        "name": "golden bow",
+        "description": "겔드족이 사용하는 섬세한 장식의 활. 넓은 사막에서의 사냥이나 전투시 먼 곳을 저격할 수 있도록 심혈을 기울여 제작되었다.",
+        "common_locations": [
+            "겔드 고지",
+            "겔드 사막"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/golden_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 14,
+            "defense": 0
+        }
+    },
+    {
+        "id": 335,
+        "kname": "일심의 활",
+        "name": "phrenic bow",
+        "description": "시커족에서 전해져 내려오는 활. 정신을 통일하여 이 활을 쏘면, 먼 곳의 적도 가까이 있는 것처럼 쏠 수 있다고 전해진다.",
+        "common_locations": [
+            "서하테르",
+            "하일리아호"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/phrenic_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 10,
+            "defense": 0
+        }
+    },
+    {
+        "id": 336,
+        "kname": "고대 병기・활",
+        "name": "ancient bow",
+        "description": "로베리의 연구 성과를 활용한 고성능의 활. 고대 시커족의 기술을 이용하여 직선 궤도로 활을 쏠 수 있다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ancient_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 44,
+            "defense": 0
+        }
+    },
+    {
+        "id": 337,
+        "kname": "근위의 활",
+        "name": "royal guard's bow",
+        "description": "대재앙에 대한 대책으로 시커족이 제작한 활. 고대 기술을 사용한 시험작에 가까운 무기로 높은 공격력과 속사성을 지녔지만 내구력이 낮다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/royal_guard's_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 50,
+            "defense": 0
+        }
+    },
+    {
+        "id": 338,
+        "kname": "보코활",
+        "name": "boko bow",
+        "description": "보코블린이 사용하는 간소한 활. 나뭇가지에 활시위를 달았을 뿐이라 사격 위력은 그다지 기대할 수 없다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/boko_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 4,
+            "defense": 0
+        }
+    },
+    {
+        "id": 339,
+        "kname": "가시 보코활",
+        "name": "spiked boko bow",
+        "description": "동물의 뼈를 동여매 강화시킨 보코활. 거친 제작법이긴 하지만 가볍고 다루기 쉽다. 내구성이 늘었으며, 사격 위력 또한 올랐다.",
+        "common_locations": [
+            "필로네 초원",
+            "동하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/spiked_boko_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 12,
+            "defense": 0
+        }
+    },
+    {
+        "id": 340,
+        "kname": "용골 보코활",
+        "name": "dragon bone boko bow",
+        "description": "화석의 뼈를 조합해 강화시킨 보코활. 보코블린 나름대로 엄선한 소재로 제작한 모양인지 상당한 사격 기능을 지녔다.",
+        "common_locations": [
+            "하이랄 구릉",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/dragon_bone_boko_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 24,
+            "defense": 0
+        }
+    },
+    {
+        "id": 341,
+        "kname": "리잘보우",
+        "name": "lizal bow",
+        "description": "리잘포스가 만든 목제 활. 커다란 생선 뼈를 조합해 제작되었고 단순한 목제 활보다 파괴력이 높다.",
+        "common_locations": [
+            "라넬 대수원",
+            "라넬 습원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lizal_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 14,
+            "defense": 0
+        }
+    },
+    {
+        "id": 342,
+        "kname": "강화 리잘보우",
+        "name": "reinforced lizal bow",
+        "description": "금속으로 손잡이를 강화한 리잘보우. 활 본체엔 물가에 나는 잘 휘는 나뭇가지를 사용하였으며, 얕볼 수 없는 사격 성능을 지녔다.",
+        "common_locations": [
+            "타반타 변두리",
+            "겔드 사막"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/strengthened_lizal_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 25,
+            "defense": 0
+        }
+    },
+    {
+        "id": 343,
+        "kname": "강철 리잘보우",
+        "name": "steel lizal bow",
+        "description": "리잘포스 중에서도 활에 능한 개체만이 쓰는 활. 강화를 위해 금속이 대량 사용되었으며, 그만큼 무겁지만 내구성도 높은 편.",
+        "common_locations": [
+            "헤브라산",
+            "추낙 고원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/steel_lizal_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 36,
+            "defense": 0
+        }
+    },
+    {
+        "id": 344,
+        "kname": "라이넬의 활",
+        "name": "lynel bow",
+        "description": "라이넬이 쓰는 투박한 금속제의 활. 복수의 화살을 동시에 쏠 수 있다. 날쌔게 움직이는 적을 맞히기에 최적화되었다.",
+        "common_locations": [
+            "겔드 고지",
+            "라넬 대수원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lynel_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 10,
+            "defense": 0
+        }
+    },
+    {
+        "id": 345,
+        "kname": "야수왕의 활",
+        "name": "mighty lynel bow",
+        "description": "보다 정교하게 만들어진 라이넬의 활. 본체 뿐 아니라 활시위까지 강인한 금속으로 제작되어 평범한 인간은 활시위를 당기는 것조차 버겁다.",
+        "common_locations": [
+            "하이랄 평원",
+            "추낙 심부"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mighty_lynel_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 20,
+            "defense": 0
+        }
+    },
+    {
+        "id": 346,
+        "kname": "야수신의 활",
+        "name": "savage lynel bow",
+        "description": "데스마운틴 정상에서 채집되는 특수한 금속으로 제작된 라이넬의 강철 활. 복수로 쏘아지는 화살은 위력이 엄청나며 두꺼운 갑옷도 종이처럼 꿰뚫는다.",
+        "common_locations": [
+            "헤브라산",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/savage_lynel_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 32,
+            "defense": 0
+        }
+    },
+    {
+        "id": 347,
+        "kname": "이연궁",
+        "name": "duplex bow",
+        "description": "이가단 안에서도 궁술이 특기인 구성원이 쓴 활. 적의 숨통을 확실하게 끊어 놓기 위해 한 번에 두 발의 화살이 발사되도록 고안되었다.",
+        "common_locations": [
+            "겔드 고지"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/duplex_bow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 14,
+            "defense": 0
+        }
+    },
+    {
+        "id": 348,
+        "kname": "나무 화살",
+        "name": "arrow",
+        "description": "가장 보편적으로 사용되는 화살. 단단한 나무를 깎아 제작된다.",
+        "common_locations": [
+            "하이랄 평원",
+            "올딘 협곡"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/arrow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 0
+        }
+    },
+    {
+        "id": 349,
+        "kname": "불의 화살",
+        "name": "fire arrow",
+        "description": "불의 힘이 봉인된 화살. 적중하면 부서지며 주위를 불태운다. 특히 차가운 것엔 절대적인 위력을 발휘한다.",
+        "common_locations": [
+            "하이랄 평원",
+            "올딘 협곡"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fire_arrow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 0
+        }
+    },
+    {
+        "id": 350,
+        "kname": "얼음의 화살",
+        "name": "ice arrow",
+        "description": "얼음의 힘이 봉인된 화살. 적중하면 부서지며 주위를 얼린다. 특히 뜨거운 것엔 절대적인 위력을 발휘한다.",
+        "common_locations": [
+            "하이랄 평원",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ice_arrow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 0
+        }
+    },
+    {
+        "id": 351,
+        "kname": "전기의 화살",
+        "name": "shock arrow",
+        "description": "전기의 힘이 봉인된 화살. 적중하면 부서지며 주위에 전기가 발생한다. 특히 금속제나 물에 젖은 것엔 효과가 크다.",
+        "common_locations": [
+            "라넬 대수원",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/shock_arrow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 0
+        }
+    },
+    {
+        "id": 352,
+        "kname": "폭탄 화살",
+        "name": "bomb arrow",
+        "description": "몬스터에게 대항하기 위해 제작된 강력한 화살. 화살촉에 폭약이 심어져 있어 적중하면 폭발하여 주위에도 큰 대미지를 준다.",
+        "common_locations": [
+            "하이랄 평원",
+            "동하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/bomb_arrow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 0
+        }
+    },
+    {
+        "id": 353,
+        "kname": "고대 병기·화살",
+        "name": "ancient arrow",
+        "description": "고대 기술이 사용된 단검의 날을 화살촉으로 만든 무기. 고대 에너지의 힘으로 적을 소멸시키며 가디언을 상대로도 강한 위력을 발휘한다.",
+        "common_locations": [
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ancient_arrow/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 0
+        }
+    },
+    {
+        "id": 354,
+        "kname": "하일리아의 방패",
+        "name": "hylian shield",
+        "description": "용사가 사용했다는 전설과 함께 고대로부터 하이랄 왕가에 전해져 내려온 방패. 압도적인 방어력과 내구성을 자랑한다.",
+        "common_locations": [
+            "하이랄 성 감옥"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hylian_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 90
+        }
+    },
+    {
+        "id": 355,
+        "kname": "냄비 뚜껑",
+        "name": "pot lid",
+        "description": "마을 사람들에게 없어선 안 될 냄비의 뚜껑. 튼튼한 나무로 만들어졌지만 방패로 계속 쓰기엔 불안하다.",
+        "common_locations": [
+            "하이랄 평원",
+            "동하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/pot_lid/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 1
+        }
+    },
+    {
+        "id": 356,
+        "kname": "나무 방패",
+        "name": "wooden shield",
+        "description": "가벼운 목재로 만들어져 초보자도 다루기 쉬운 방패. 화살 등의 가벼운 공격이라면 막을 수 있다.",
+        "common_locations": [
+            "하이랄 평원",
+            "동하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/wooden_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 2
+        }
+    },
+    {
+        "id": 357,
+        "kname": "짐승 문양 방패",
+        "name": "emblazoned shield",
+        "description": "하테르 지방의 전통적인 문양이 그려진 방패. 방패로서의 성능은 일반 나무 방패와 별 차이가 없으나 공예품으로 인기이다.",
+        "common_locations": [
+            "동하테르",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/emblazoned_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 3
+        }
+    },
+    {
+        "id": 358,
+        "kname": "토끼 문양 방패",
+        "name": "hunter's shield",
+        "description": "숲의 사냥꾼이 선호하는 방패. 다루기는 쉽지만 내구성은 높지 않다. 토끼 문양에는 사냥 운을 높여 준다는 미신이 있다.",
+        "common_locations": [
+            "헤브라산",
+            "라넬 습원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hunter's_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 3
+        }
+    },
+    {
+        "id": 359,
+        "kname": "물고기 문양 방패",
+        "name": "fisherman's shield",
+        "description": "바다의 어부가 선호하는 방패. 배에서 다루기 쉽게 가벼운 나무로 만들어졌다. 물고기 문양에는 풍어를 기원하는 미신이 있다.",
+        "common_locations": [
+            "동하테르",
+            "헤브라산",
+            "나크시 마을"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fisherman's_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 3
+        }
+    },
+    {
+        "id": 360,
+        "kname": "여행자의 방패",
+        "name": "traveler's shield",
+        "description": "여행자들에게 호신용으로 널리 쓰이는 방패. 튼튼한 나무에 가죽이 덧씌워져 있어 하급 몬스터나 짐승의 공격 정도는 막을 수 있다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/traveler's_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 4
+        }
+    },
+    {
+        "id": 361,
+        "kname": "병사의 방패",
+        "name": "soldier's shield",
+        "description": "과거 성을 지키던 병사들에게 지급된 방패. 나무로 만들어져 가볍고 쓰기 편하지만 불이 붙으면 타 버리니 주의해야 한다.",
+        "common_locations": [
+            "타반타 변두리",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/soldier's_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 16
+        }
+    },
+    {
+        "id": 362,
+        "kname": "기사의 방패",
+        "name": "knight's shield",
+        "description": "하이랄 왕가를 섬기던 기사가 쓰던 방패. 금속이라 튼튼해서 거친 전투에도 버틸 수 있다. 무게가 있어 어느 정도 실력이 있어야 다룰 수 있다.",
+        "common_locations": [
+            "헤브라산",
+            "올딘 산맥"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/knight's_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 40
+        }
+    },
+    {
+        "id": 363,
+        "kname": "왕가의 방패",
+        "name": "royal shield",
+        "description": "하이랄 기사 중에서도 왕가의 사람을 지키는 임무를 수행하던 기사에게 하사되었던 방패. 아름다운 장식과 높은 방어력이 매력적인 명품.",
+        "common_locations": [
+            "하이랄 평원",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/royal_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 55
+        }
+    },
+    {
+        "id": 364,
+        "kname": "숲에 사는 자의 방패",
+        "name": "forest dweller's shield",
+        "description": "코로그족이 인간을 위해 제작했다고 전해지는 방패. 코로그의 숲에서만 자라는 엄청나게 단단한 나무를 사용해 제작했기 때문에 보기보다 훨씬 튼튼하다.",
+        "common_locations": [
+            "하이랄 대삼림"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/forest_dweller's_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 30
+        }
+    },
+    {
+        "id": 365,
+        "kname": "조라의 방패",
+        "name": "silver shield",
+        "description": "섬세하게 장식된 조라족의 방패. 숙련된 사용자는 좌우의 굽어진 부분으로 공격을 받아넘겨 몸을 지킨다고 한다.",
+        "common_locations": [
+            "라넬 대수원",
+            "하일리아호"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/silver_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 18
+        }
+    },
+    {
+        "id": 366,
+        "kname": "산들바람의 방패",
+        "name": "kite shield",
+        "description": "리토족 전사가 애용하는 방패. 공중전을 치를 경우 등에 맨 채로 하늘을 날아도 지장이 없도록 고안된 형태이다.",
+        "common_locations": [
+            "헤브라산",
+            "타반타 변두리"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/kite_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 14
+        }
+    },
+    {
+        "id": 367,
+        "kname": "겔드의 방패",
+        "name": "gerudo shield",
+        "description": "한손검과 방패로 싸우는 겔드족의 기본적인 전투 스타일에 맞춰 진화한 금속 방패. 병사뿐만이 아니라 여행자에게도 사랑받고 있다.",
+        "common_locations": [
+            "겔드 사막",
+            "겔드 고지"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/gerudo_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 20
+        }
+    },
+    {
+        "id": 368,
+        "kname": "태양의 방패",
+        "name": "radiant shield",
+        "description": "겔드 병사 중에서도 대장 이상만이 들 수 있는 호화로운 방패. 보석이 박혀 있어 장식품으로도 높은 가치가 있지만 방패로서도 뛰어나다.",
+        "common_locations": [
+            "겔드 사막",
+            "겔드 고지"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/radiant_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 35
+        }
+    },
+    {
+        "id": 369,
+        "kname": "칠보의 방패",
+        "name": "daybreaker",
+        "description": "영걸 우르보사가 애용한 지고의 방패. 엄선된 금속을 사용해 가벼움과 강인함 모두를 겸비한 명품. 강렬한 공격도 가뿐히 막아 내는 성능을 지녔다.",
+        "common_locations": [
+            "겔드 사막"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/daybreaker/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 48
+        }
+    },
+    {
+        "id": 370,
+        "kname": "수호의 방패",
+        "name": "shield of mind's eye",
+        "description": "시커족이 쓰던 목제 소형 방패. 기동성을 확보하고 사각을 쉽게 만들지 못하도록 특수한 모양을 하고 있다고 전해진다.",
+        "common_locations": [
+            "서하테르",
+            "동하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/shield_of_the_mind's_eye/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 16
+        }
+    },
+    {
+        "id": 371,
+        "kname": "고대 병기・방패",
+        "name": "ancient shield",
+        "description": "고대 시커족의 기술이 사용된 방패. 푸르게 빛나는 표면은 막기만 해도 가디언의 빔을 반사하는 기능이 있다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ancient_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 70
+        }
+    },
+    {
+        "id": 372,
+        "kname": "녹슨 방패",
+        "name": "rusty shield",
+        "description": "기사가 사용했을 금속의 녹슨 방패. 오랫동안 버려져 있어 녹이 슬었다. 방어 성능은 떨어졌지만 그런대로 쓸 수 있다.",
+        "common_locations": [
+            "하이랄 평원",
+            "동하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/rusty_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 3
+        }
+    },
+    {
+        "id": 373,
+        "kname": "근위의 방패",
+        "name": "royal guard's shield",
+        "description": "시커족이 고대 기술을 사용해 제작한 방패. 공격을 막아 내는 힘은 굉장히 강하지만, 구조상 내구성이 낮아 실전엔 부적합하다고 평가되었다.",
+        "common_locations": [
+            "확인불가"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/royal_guard's_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 70
+        }
+    },
+    {
+        "id": 374,
+        "kname": "보코방패",
+        "name": "boko shield",
+        "description": "떨어져 있는 적당한 나무판자에 손잡이를 달아 만든 보코블린의 방패. 내구성도 낮아 간단히 망가져 버린다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/boko_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 3
+        }
+    },
+    {
+        "id": 375,
+        "kname": "가시 보코방패",
+        "name": "spiked boko shield",
+        "description": "살짝 단단한 나무로 만들어진 보코블린의 방패. 나무판자에 동물의 뼈를 동여매 강도를 높혔다.",
+        "common_locations": [
+            "필로네 초원",
+            "동하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/spiked_boko_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 10,
+            "defense": 0
+        }
+    },
+    {
+        "id": 376,
+        "kname": "용골 보코방패",
+        "name": "dragonbone boko shield",
+        "description": "화석의 뼈를 테두리에 달아 보강한 보코방패. 적의 공격을 막는 성능은 개량되었지만 여전히 조잡한 완성도로 내구성은 그리 높지 않다.",
+        "common_locations": [
+            "하이랄 구릉",
+            "하테르해"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/dragonbone_boko_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 25
+        }
+    },
+    {
+        "id": 377,
+        "kname": "리잘실드",
+        "name": "lizal shield",
+        "description": "리잘포스가 선호하는 방패. 금속으로 만들어졌지만 거친 완성도로 내구성은 그리 높지 않다.",
+        "common_locations": [
+            "하일리아호",
+            "동하테르"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lizal_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 15
+        }
+    },
+    {
+        "id": 378,
+        "kname": "강화 리잘실드",
+        "name": "reinforced lizal shield",
+        "description": "서로 다른 종류의 금속을 조합해 강도를 높인 리잘실드. 테두리가 뾰족하니 주의해서 다루어야 한다.",
+        "common_locations": [
+            "타반타 변두리",
+            "겔드 사막"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/reinforced_lizal_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 22
+        }
+    },
+    {
+        "id": 379,
+        "kname": "강철 리잘실드",
+        "name": "steel lizal shield",
+        "description": "금속 장갑을 몇 장이나 겹친 리잘실드. 가드 성능은 높지만 중량이 상당하여 전투 능력이 높은 개체만이 장비하고 있다.",
+        "common_locations": [
+            "헤브라산",
+            "추낙 고원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/steel_lizal_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 35
+        }
+    },
+    {
+        "id": 380,
+        "kname": "가디언 가드",
+        "name": "guardian shield",
+        "description": "출력이 높아져서 커진 가디언 가드. 현대에는 사라진 고대 기술로 제작되어 금속 방패에 뒤지지 않을 가드 성능을 지녔다.",
+        "common_locations": [
+            "서하테르",
+            "라넬 대수원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 18
+        }
+    },
+    {
+        "id": 381,
+        "kname": "가디언 가드+",
+        "name": "guardian shield+",
+        "description": "출력이 높아져서 커진 가디언 가드. 현대에는 사라진 고대 기술로 제작되어 금속 방패에 뒤지지 않을 가드 성능을 지녔다.",
+        "common_locations": [
+            "동하테르",
+            "필로네 초원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_shield+/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 30
+        }
+    },
+    {
+        "id": 382,
+        "kname": "가디언 가드++",
+        "name": "guardian shield++",
+        "description": "최대치까지 출력이 강화된 고대 방패. 금속 방패로는 실현할 수 없는 가벼움과 강도를 지녔다. 소형 가디언의 빔을 반사할 수 있다.",
+        "common_locations": [
+            "겔드 고지",
+            "추낙 고원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_shield++/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 42
+        }
+    },
+    {
+        "id": 383,
+        "kname": "라이넬의 방패",
+        "name": "lynel shield",
+        "description": "라이넬이 장비하는 금속의 튼튼한 방패. 방패임에도 날을 갖고 있어 그것을 이용해 참격을 날릴 수 있다.",
+        "common_locations": [
+            "라넬 대수원",
+            "하이랄 평원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lynel_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 30
+        }
+    },
+    {
+        "id": 384,
+        "kname": "야수왕의 방패",
+        "name": "mighty lynel shield",
+        "description": "장갑과 날이 늘어나 공수 모두 강화된 라이넬의 방패. 테두리의 날은 간단한 방어구 정도는 가를 수 있는 예리함을 지녔다.",
+        "common_locations": [
+            "하이랄 평원",
+            "라넬 대수원"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mighty_lynel_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 44
+        }
+    },
+    {
+        "id": 385,
+        "kname": "야수신의 방패",
+        "name": "savage lynel shield",
+        "description": "그 어떤 매서운 공격도 쉽게 막는 가드 성능과 강적을 가르는 날을 겸비한 궁극의 방패. 하얀 갈기의 라이넬이 즐겨 사용한다.",
+        "common_locations": [
+            "하이랄 평원",
+            "헤브라산"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/savage_lynel_shield/image",
+        "category": "equipment",
+        "dlc": false,
+        "properties": {
+            "attack": 0,
+            "defense": 62
+        }
+    }
+]

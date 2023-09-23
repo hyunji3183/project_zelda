@@ -1,0 +1,75 @@
+[
+    {
+        "id": 386,
+        "kname": "보물상자",
+        "name": "treasure chest",
+        "description": "장비품이나 귀중품이 들어 있는 상자. 사당 안이나 적의 거점에서 발견되는 경우가 많다. 땅속에 묻혀 있는 경우도 있다.",
+        "common_locations": [
+            "하이랄전역"
+        ],
+        "drops": [
+            "이런저런 보물"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/treasure_chest/image",
+        "category": "treasure",
+        "dlc": false
+    },
+    {
+        "id": 387,
+        "kname": "광상",
+        "name": "ore deposit",
+        "description": "광석을 다량 함유한 바위. 깨부수면 암염이나 부싯돌 외에도 가치있는 광석 등 다양한 것을 얻을 수 있다.",
+        "common_locations": [
+            "하이랄전역"
+        ],
+        "drops": [
+            "루비",
+            "다이아몬드",
+            "호박",
+            "사파이어",
+            "토파즈",
+            "오팔",
+            "암염",
+            "부싯돌"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ore_deposit/image",
+        "category": "treasure",
+        "dlc": false
+    },
+    {
+        "id": 388,
+        "kname": "희귀 광상",
+        "name": "rare ore deposit",
+        "description": "귀중한 광석을 다량 함유한 바위. 루비나 사파이어 같은 희소성 있는 광석이 나올 때도 있다.",
+        "common_locations": [
+            "하이랄전역"
+        ],
+        "drops": [
+            "루비",
+            "사파이어",
+            "다이아몬드",
+            "호박",
+            "토파즈",
+            "부싯돌"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/rare_ore_deposit/image",
+        "category": "treasure",
+        "dlc": false
+    },
+    {
+        "id": 389,
+        "kname": "야광 광상",
+        "name": "luminous ore deposit",
+        "description": "야광석을 다량 함유한 바위. 깨부수면 가공하기 좋은 크기의 야광석을 얻을 수 있다.",
+        "common_locations": [
+            "하이랄전역"
+        ],
+        "drops": [
+            "야광석",
+            "부싯돌"
+        ],
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/luminous_ore_deposit/image",
+        "category": "treasure",
+        "dlc": false
+    }
+]

@@ -1,0 +1,698 @@
+@import url("./_reset.scss");
+body.detail {
+  background-image: url(../src/img/background_image__PC_detail.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body.detail header {
+  width: 90%;
+  margin: 0 auto;
+}
+body.detail header .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 4rem;
+}
+body.detail header .head p {
+  width: 8%;
+  text-align: right;
+}
+body.detail header .head p img {
+  width: 40%;
+}
+body.detail header .head .like_heart {
+  text-align: left;
+}
+body.detail header .head h2 {
+  width: 16%;
+  color: #e0ceaa;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-family: "font_zelda";
+  font-weight: 200;
+}
+body.detail header .head span {
+  width: 10%;
+  font-size: 2.5rem;
+  color: #818181;
+  text-align: left;
+}
+body.detail header .head span.active {
+  color: #ff4a4a;
+}
+body.detail .detail aside {
+  width: 30%;
+  margin: 0 auto 6rem;
+}
+body.detail .detail aside .category {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body.detail .detail aside .category a {
+  width: 14%;
+  text-align: center;
+}
+body.detail .detail aside .category a img {
+  width: 80%;
+}
+body.detail .detail aside .category a img:hover {
+  box-shadow: 0px 0px 7px 6px rgba(1, 242, 255, 0.5);
+}
+body.detail .contents {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+body.detail .contents .left_contents {
+  width: 30%;
+}
+body.detail .contents .left_contents .left {
+  width: 100%;
+}
+body.detail .contents .left_contents .left .left_txt {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 0.2rem;
+}
+body.detail .contents .left_contents .left .left_txt > p {
+  color: #84a1c8;
+  font-family: "font_zelda";
+  font-weight: 200;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+body.detail .contents .left_contents .left .left_txt .txt {
+  color: #e0ceaa;
+  text-align: right;
+}
+body.detail .contents .left_contents .left .left_txt .txt p {
+  font-family: "dreamgotic";
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+body.detail .contents .left_contents .left .left_txt .txt span {
+  font-family: "font_zelda";
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+body.detail .contents .left_contents .left .image {
+  width: 100%;
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+}
+body.detail .contents .left_contents .left .image img {
+  width: 100%;
+}
+body.detail .contents .right_contents {
+  width: 55%;
+  color: white;
+  display: inline-block;
+}
+body.detail .contents .right_contents .place {
+  padding: 1rem 0 2rem;
+}
+body.detail .contents .right_contents .place .location {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body.detail .contents .right_contents .place .location p {
+  width: 30%;
+}
+body.detail .contents .right_contents .place .location p img {
+  width: 100%;
+}
+body.detail .contents .right_contents .place .location span {
+  color: #3cd3fc;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "dreamgotic";
+  font-weight: 500;
+}
+body.detail .contents .right_contents .place .place_data {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+body.detail .contents .right_contents .place .place_data span {
+  padding: 0.3rem 0;
+  width: 30%;
+  font-size: 1.4rem;
+  font-family: "dreamgotic";
+  font-weight: 500;
+}
+body.detail .contents .right_contents .get_item {
+  padding: 1rem 0 2rem;
+}
+body.detail .contents .right_contents .get_item .item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body.detail .contents .right_contents .get_item .item p {
+  width: 30%;
+}
+body.detail .contents .right_contents .get_item .item p img {
+  width: 100%;
+}
+body.detail .contents .right_contents .get_item .item span {
+  color: #3cd3fc;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "dreamgotic";
+  font-weight: 500;
+}
+body.detail .contents .right_contents .get_item .item_data {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+body.detail .contents .right_contents .get_item .item_data span {
+  flex-grow: 1;
+  padding: 0.3rem 0;
+  width: 30%;
+  font-size: 1.4rem;
+  font-family: "dreamgotic";
+  font-weight: 500;
+}
+body.detail .contents .right_contents .description {
+  padding: 0.8rem 0;
+}
+body.detail .contents .right_contents .description > p {
+  color: #e0ceaa;
+  font-size: 1.4rem;
+  font-family: "dreamgotic";
+  font-weight: 500;
+  line-height: 2.25rem;
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  body.detail {
+    background-image: url(../src/img/background_image_detail.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+  body.detail header {
+    width: 100%;
+  }
+  body.detail header .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 84%;
+    margin: 0 auto;
+    padding: 5rem 0 2rem;
+  }
+  body.detail header .head p {
+    width: 10%;
+    text-align: right;
+  }
+  body.detail header .head p img {
+    width: 40%;
+  }
+  body.detail header .head .like_heart {
+    text-align: left;
+  }
+  body.detail header .head h2 {
+    width: 16%;
+    color: #e0ceaa;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.875rem;
+    font-family: "font_zelda";
+    font-weight: 200;
+  }
+  body.detail header .head span {
+    width: 10%;
+    font-size: 1.5rem;
+    color: #818181;
+    text-align: left;
+  }
+  body.detail header .head span.active {
+    color: #ff4a4a;
+  }
+  body.detail .detail aside {
+    width: 50%;
+    margin: 0 auto;
+  }
+  body.detail .detail aside .category {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  body.detail .detail aside .category a {
+    width: 14%;
+    text-align: center;
+  }
+  body.detail .detail aside .category a img {
+    width: 80%;
+  }
+  body.detail .detail aside .category a img:hover {
+    box-shadow: 0px 0px 7px 6px rgba(1, 242, 255, 0.5);
+  }
+  body.detail .contents {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0;
+  }
+  body.detail .contents .left_contents {
+    width: 40%;
+  }
+  body.detail .contents .left_contents .left {
+    width: 100%;
+  }
+  body.detail .contents .left_contents .left .left_txt {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 0.2rem;
+  }
+  body.detail .contents .left_contents .left .left_txt > p {
+    color: #84a1c8;
+    font-family: "font_zelda";
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  body.detail .contents .left_contents .left .left_txt .txt {
+    color: #e0ceaa;
+    text-align: right;
+  }
+  body.detail .contents .left_contents .left .left_txt .txt p {
+    font-family: "dreamgotic";
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  body.detail .contents .left_contents .left .left_txt .txt span {
+    font-family: "font_zelda";
+    font-weight: 200;
+  }
+  body.detail .contents .left_contents .left .image {
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  body.detail .contents .left_contents .left .image img {
+    width: 100%;
+  }
+  body.detail .contents .right_contents {
+    width: 55%;
+    color: white;
+    display: inline-block;
+  }
+  body.detail .contents .right_contents .place {
+    padding: 1rem 0 2rem;
+  }
+  body.detail .contents .right_contents .place .location {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body.detail .contents .right_contents .place .location p {
+    width: 30%;
+  }
+  body.detail .contents .right_contents .place .location p img {
+    width: 100%;
+  }
+  body.detail .contents .right_contents .place .location span {
+    color: #3cd3fc;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body.detail .contents .right_contents .place .place_data {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+  body.detail .contents .right_contents .place .place_data span {
+    padding: 0.3rem 0;
+    width: 30%;
+    font-size: 0.9rem;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body.detail .contents .right_contents .get_item {
+    padding: 1rem 0 2rem;
+  }
+  body.detail .contents .right_contents .get_item .item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body.detail .contents .right_contents .get_item .item p {
+    width: 30%;
+  }
+  body.detail .contents .right_contents .get_item .item p img {
+    width: 100%;
+  }
+  body.detail .contents .right_contents .get_item .item span {
+    color: #3cd3fc;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body.detail .contents .right_contents .get_item .item_data {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+  body.detail .contents .right_contents .get_item .item_data span {
+    flex-grow: 1;
+    padding: 0.3rem 0;
+    width: 30%;
+    font-size: 0.9rem;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body.detail .contents .right_contents .description {
+    padding: 0.8rem 0;
+  }
+  body.detail .contents .right_contents .description > p {
+    color: #e0ceaa;
+    font-size: 0.8rem;
+    font-family: "dreamgotic";
+    font-weight: 500;
+    line-height: 1.25rem;
+  }
+}
+@media (max-width: 640px) {
+  body.detail {
+    background-image: url(../src/img/background_image__mobile_detail.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+  body.detail header {
+    width: 100%;
+  }
+  body.detail header .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem 0 2rem;
+  }
+  body.detail header .head p {
+    width: 10%;
+    text-align: right;
+  }
+  body.detail header .head p img {
+    width: 40%;
+  }
+  body.detail header .head .like_heart {
+    text-align: left;
+  }
+  body.detail header .head h2 {
+    width: 16%;
+    color: #e0ceaa;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.475rem;
+    font-family: "font_zelda";
+    font-weight: 200;
+  }
+  body.detail header .head span {
+    width: 10%;
+    font-size: 1.5rem;
+    color: #818181;
+    text-align: left;
+  }
+  body.detail header .head span.active {
+    color: #ff4a4a;
+  }
+  body.detail .detail aside {
+    width: 50%;
+    margin: 0 auto;
+  }
+  body.detail .detail aside .category {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  body.detail .detail aside .category a {
+    width: 18%;
+    text-align: center;
+  }
+  body.detail .detail aside .category a img {
+    width: 80%;
+  }
+  body.detail .detail aside .category a img:hover {
+    box-shadow: 0px 0px 7px 6px rgba(1, 242, 255, 0.5);
+  }
+  body.detail .contents {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 3rem 0;
+  }
+  body.detail .contents .left_contents .left {
+    width: 100%;
+  }
+  body.detail .contents .left_contents .left .left_txt {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 0.2rem;
+  }
+  body.detail .contents .left_contents .left .left_txt > p {
+    color: #84a1c8;
+    font-family: "font_zelda";
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  body.detail .contents .left_contents .left .left_txt .txt {
+    color: #e0ceaa;
+    text-align: right;
+  }
+  body.detail .contents .left_contents .left .left_txt .txt p {
+    font-family: "dreamgotic";
+    font-weight: 500;
+    font-size: 1.175rem;
+  }
+  body.detail .contents .left_contents .left .left_txt .txt span {
+    font-family: "font_zelda";
+    font-weight: 200;
+  }
+  body.detail .contents .left_contents .left .image {
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  body.detail .contents .left_contents .left .image img {
+    width: 100%;
+  }
+  body.detail .contents .right_contents {
+    width: 100%;
+    color: white;
+    display: inline-block;
+  }
+  body.detail .contents .right_contents .place {
+    padding: 1rem 0 2rem;
+  }
+  body.detail .contents .right_contents .place .location {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body.detail .contents .right_contents .place .location p {
+    width: 30%;
+  }
+  body.detail .contents .right_contents .place .location p img {
+    width: 100%;
+  }
+  body.detail .contents .right_contents .place .location span {
+    color: #3cd3fc;
+    font-size: 1.175rem;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body.detail .contents .right_contents .place .place_data {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+  body.detail .contents .right_contents .place .place_data span {
+    flex-grow: 1;
+    padding: 0.3rem 0;
+    width: 30%;
+    font-size: 0.7rem;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body.detail .contents .right_contents .get_item {
+    padding: 1rem 0 2rem;
+  }
+  body.detail .contents .right_contents .get_item .item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body.detail .contents .right_contents .get_item .item p {
+    width: 30%;
+  }
+  body.detail .contents .right_contents .get_item .item p img {
+    width: 100%;
+  }
+  body.detail .contents .right_contents .get_item .item span {
+    color: #3cd3fc;
+    font-size: 1.175rem;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body.detail .contents .right_contents .get_item .item_data {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+  body.detail .contents .right_contents .get_item .item_data span {
+    flex-grow: 1;
+    padding: 0.3rem 0;
+    width: 25%;
+    font-size: 0.7rem;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body.detail .contents .right_contents .description {
+    padding: 0.8rem 0;
+  }
+  body.detail .contents .right_contents .description > p {
+    color: #e0ceaa;
+    font-size: 0.8rem;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body.detail .contents .right_contents_Weapon {
+    width: 55%;
+    color: white;
+    display: none;
+  }
+  body.detail .contents .right_contents_Weapon .place {
+    padding: 1rem 0 2rem;
+  }
+  body.detail .contents .right_contents_Weapon .place .location {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body.detail .contents .right_contents_Weapon .place .location span {
+    color: #3cd3fc;
+    font-size: 1.375rem;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body.detail .contents .right_contents_Weapon .place .place_data {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+  body.detail .contents .right_contents_Weapon .place .place_data span {
+    padding: 0.3rem 0;
+    width: 30%;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body.detail .contents .right_contents_Weapon .get_item {
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body.detail .contents .right_contents_Weapon .get_item .item_stats {
+    width: 100%;
+  }
+  body.detail .contents .right_contents_Weapon .get_item .item_stats .item {
+    width: 100%;
+  }
+  body.detail .contents .right_contents_Weapon .get_item .item_stats .item span {
+    color: #3cd3fc;
+    font-size: 1.375rem;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body.detail .contents .right_contents_Weapon .get_item .item_stats .item_data {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+  body.detail .contents .right_contents_Weapon .get_item .item_stats .item_data span {
+    padding: 0.3rem 0;
+    width: 25%;
+    font-size: 1.125rem;
+    font-family: "font_zelda";
+    font-weight: 200;
+  }
+  body.detail .contents .right_contents_Weapon .description {
+    padding: 0.8rem 0;
+  }
+  body.detail .contents .right_contents_Weapon .description > p {
+    color: #e0ceaa;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+}

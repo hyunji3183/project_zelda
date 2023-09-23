@@ -1,0 +1,890 @@
+@import url("./_reset.scss");
+body {
+  background: url(../src/img/background_image.jpeg);
+  width: 100vw;
+}
+body .intro {
+  position: relative;
+}
+body .intro .videobox {
+  position: relative;
+}
+body .intro .videobox video {
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+body .intro .logo {
+  position: absolute;
+  left: 0;
+  bottom: 16%;
+}
+body .intro .logo p {
+  width: 80%;
+  display: inline-block;
+  text-align: center;
+}
+body .intro .logo p img {
+  width: 50%;
+}
+body header {
+  width: 80%;
+  margin: 0 auto;
+}
+body header .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+body header .head a {
+  width: 8%;
+  text-align: center;
+}
+body header .head a img {
+  width: 50%;
+}
+body header .head h2 {
+  width: 93%;
+  color: #e0ceaa;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "font_zelda";
+  font-weight: 200;
+}
+body main {
+  width: 70%;
+  height: fit-content;
+  margin: 0 auto;
+  display: flex;
+}
+body main aside {
+  height: fit-content;
+  width: 10%;
+  position: sticky;
+  top: 100px;
+}
+body main aside .category {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main aside .category a {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+body main aside .category a img {
+  width: 100%;
+}
+body main aside .category a.active img {
+  width: 100%;
+  box-shadow: 0px 0px 7px 6px rgba(1, 242, 255, 0.5);
+}
+body main aside .toggle {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+body main aside .toggle .menu {
+  background-color: #332624;
+  text-align: center;
+  padding: 1rem 0;
+}
+body main aside .toggle .menu a {
+  width: 70%;
+  margin: 0 auto;
+}
+body main aside .toggle .menu a img {
+  width: 70%;
+}
+body main aside .toggle a {
+  cursor: pointer;
+  padding: 1rem 0.3rem;
+}
+body main aside .toggle a img {
+  width: 100%;
+}
+body main .list {
+  width: 90%;
+}
+body main .list ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #332624;
+  padding: 3rem;
+}
+body main .list ul li {
+  width: 45%;
+  padding: 1rem 0;
+}
+body main .list ul li figure {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main .list ul li figure a {
+  width: 45%;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+body main .list ul li figure a img {
+  width: 100%;
+}
+body main .list ul li figure a span {
+  position: absolute;
+  left: 2%;
+  top: 2.5%;
+  display: block;
+  font-family: "font_zelda";
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: #faf7f2;
+  background-color: #163156;
+  padding: 0.2rem 0.3rem;
+  border-radius: 10px;
+}
+body main .list ul li figure figcaption {
+  width: 46%;
+  color: #e0ceaa;
+}
+body main .list ul li figure figcaption b {
+  font-family: "dreamgotic";
+  font-weight: 500;
+  font-size: 1.575rem;
+}
+body main .list ul li figure figcaption p {
+  font-family: "font_zelda";
+  font-weight: 200;
+  font-size: 1.525rem;
+  padding: 0.5rem 0 1rem;
+}
+body main .search {
+  width: 90%;
+}
+body main .search .search_area form {
+  transform: translateY(50%);
+  padding-left: 1rem;
+  display: flex;
+}
+body main .search .search_area form input {
+  padding-bottom: 1rem;
+  width: 90%;
+  color: #e0ceaa;
+  font-family: "font_zelda", "dreamgotic";
+  font-weight: 500;
+  font-size: 2rem;
+}
+body main .search .search_area form > div {
+  width: 90%;
+  display: flex;
+}
+body main .search .search_area .searchbar {
+  width: 86%;
+}
+body main .search .search_area .searchbar img {
+  width: 100%;
+}
+body main .search .search_data ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+body main .search .search_data ul li {
+  width: 25%;
+  padding: 1rem 0 0;
+}
+body main .search .search_data ul li figure {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+body main .search .search_data ul li figure a {
+  width: 90%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+body main .search .search_data ul li figure a img {
+  width: 100%;
+}
+body main .search .search_data ul li figure figcaption {
+  color: #e0ceaa;
+  width: 80%;
+  text-align: center;
+}
+body main .search .search_data ul li figure figcaption b {
+  display: inline-block;
+  padding: 0.8rem 0;
+  font-family: "dreamgotic";
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+body main .search .search_data p {
+  padding: 10rem 0;
+  width: 100%;
+  color: #e0ceaa;
+  text-align: center;
+  font-size: 20px;
+  font-family: "dreamgotic";
+  font-weight: 500;
+}
+body main .favorite {
+  width: 90%;
+}
+body main .favorite .favorite_data p {
+  padding: 18rem 0;
+  width: 100%;
+  color: #e0ceaa;
+  text-align: center;
+  font-size: 20px;
+  font-family: "dreamgotic";
+  font-weight: 500;
+}
+body main .favorite .favorite_data ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 96%;
+}
+body main .favorite .favorite_data ul li {
+  width: 25%;
+  padding: 1.5rem 0 0;
+}
+body main .favorite .favorite_data ul li figure {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+body main .favorite .favorite_data ul li figure a {
+  width: 90%;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+body main .favorite .favorite_data ul li figure a img {
+  width: 100%;
+}
+body main .favorite .favorite_data ul li figure a > span {
+  width: 16%;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  font-size: 2rem;
+  color: #ff4a4a;
+}
+body main .favorite .favorite_data ul li figure figcaption {
+  color: #e0ceaa;
+  width: 80%;
+  text-align: center;
+}
+body main .favorite .favorite_data ul li figure figcaption b {
+  display: inline-block;
+  padding: 0.8rem 0;
+  font-family: "dreamgotic";
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  body {
+    background: url(../src/img/background_image.jpeg);
+    width: 100%;
+  }
+  body .intro {
+    position: relative;
+  }
+  body .intro .videobox {
+    position: relative;
+  }
+  body .intro .videobox video {
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+  }
+  body .intro .logo {
+    position: absolute;
+    left: 0;
+    bottom: 16%;
+  }
+  body .intro .logo p {
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+  }
+  body .intro .logo p img {
+    width: 50%;
+  }
+  body header {
+    width: 100%;
+  }
+  body header .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  body header .head a {
+    width: 7%;
+    text-align: center;
+  }
+  body header .head a img {
+    width: 50%;
+  }
+  body header .head h2 {
+    width: 93%;
+    color: #e0ceaa;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.875rem;
+    font-family: "font_zelda";
+    font-weight: 0;
+  }
+  body main {
+    width: 90%;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+  }
+  body main aside {
+    height: fit-content;
+    width: 10%;
+    position: sticky;
+    top: 100px;
+  }
+  body main aside .category {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main aside .category a {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  body main aside .category a img {
+    width: 100%;
+  }
+  body main aside .category a.active img {
+    width: 100%;
+    box-shadow: 0px 0px 7px 6px rgba(1, 242, 255, 0.5);
+  }
+  body main aside .toggle {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body main aside .toggle .menu {
+    background-color: #332624;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  body main aside .toggle .menu a {
+    width: 80%;
+    margin: 0 auto;
+  }
+  body main aside .toggle .menu a img {
+    width: 70%;
+  }
+  body main aside .toggle a {
+    cursor: pointer;
+    padding: 1rem 0.3rem;
+  }
+  body main aside .toggle a img {
+    width: 100%;
+  }
+  body main .list {
+    width: 90%;
+  }
+  body main .list ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #332624;
+    padding: 2rem;
+  }
+  body main .list ul li {
+    width: 45%;
+    padding: 1rem 0;
+  }
+  body main .list ul li figure {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body main .list ul li figure a {
+    width: 48%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  body main .list ul li figure a img {
+    width: 100%;
+  }
+  body main .list ul li figure a span {
+    position: absolute;
+    left: 2%;
+    top: 2.5%;
+    display: block;
+    font-family: "font_zelda";
+    font-weight: 200;
+    font-size: 0.8rem;
+    color: #faf7f2;
+    background-color: #163156;
+    padding: 0.2rem 0.3rem;
+    border-radius: 10px;
+  }
+  body main .list ul li figure figcaption {
+    width: 46%;
+    color: #e0ceaa;
+  }
+  body main .list ul li figure figcaption b {
+    font-family: "dreamgotic";
+    font-weight: 500;
+    font-size: 1.175rem;
+  }
+  body main .list ul li figure figcaption p {
+    font-family: "font_zelda";
+    font-weight: 200;
+    font-size: 1.125rem;
+    padding: 0.5rem 0 1rem;
+  }
+  body main .search {
+    width: 90%;
+  }
+  body main .search .search_area form {
+    transform: translateY(50%);
+    padding-left: 1rem;
+    display: flex;
+  }
+  body main .search .search_area form input {
+    width: 90%;
+    font-family: "font_zelda";
+    font-weight: 200;
+    font-size: 1.875rem;
+    color: #e0ceaa;
+  }
+  body main .search .search_area form > div {
+    width: 90%;
+    display: flex;
+  }
+  body main .search .search_area .searchbar {
+    width: 86%;
+  }
+  body main .search .search_area .searchbar img {
+    width: 100%;
+  }
+  body main .search .search_data ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  body main .search .search_data ul li {
+    width: 25%;
+    padding: 1rem 0 0;
+  }
+  body main .search .search_data ul li figure {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  body main .search .search_data ul li figure a {
+    width: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  body main .search .search_data ul li figure a img {
+    width: 100%;
+  }
+  body main .search .search_data ul li figure figcaption {
+    color: #e0ceaa;
+    width: 80%;
+    text-align: center;
+  }
+  body main .search .search_data ul li figure figcaption b {
+    padding: 0.8rem 0;
+    font-family: "dreamgotic";
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+  body main .search .search_data p {
+    padding: 10rem 0;
+    width: 100%;
+    color: #e0ceaa;
+    text-align: center;
+    font-size: 20px;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body main .favorite {
+    width: 90%;
+  }
+  body main .favorite .favorite_data p {
+    padding: 18rem 0;
+    width: 100%;
+    color: #e0ceaa;
+    text-align: center;
+    font-size: 20px;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body main .favorite .favorite_data ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+  }
+  body main .favorite .favorite_data ul li {
+    width: 25%;
+    padding: 1.5rem 0 0;
+  }
+  body main .favorite .favorite_data ul li figure {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  body main .favorite .favorite_data ul li figure a {
+    width: 90%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  body main .favorite .favorite_data ul li figure a img {
+    width: 100%;
+  }
+  body main .favorite .favorite_data ul li figure a > span {
+    width: 16%;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 1.5rem;
+    color: #ff4a4a;
+  }
+  body main .favorite .favorite_data ul li figure figcaption {
+    color: #e0ceaa;
+    width: 80%;
+    text-align: center;
+  }
+  body main .favorite .favorite_data ul li figure figcaption b {
+    padding: 0.8rem 0;
+    display: inline-block;
+    font-family: "dreamgotic";
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 640px) {
+  body {
+    background: url(../src/img/background_image.jpeg);
+    width: 100%;
+  }
+  body .intro {
+    position: relative;
+  }
+  body .intro .videobox {
+    position: relative;
+  }
+  body .intro .videobox video {
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+  }
+  body header {
+    width: 100%;
+  }
+  body header .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  body header .head a {
+    width: 14%;
+    text-align: center;
+  }
+  body header .head a img {
+    width: 50%;
+  }
+  body header .head h2 {
+    width: 86%;
+    color: #e0ceaa;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-family: "font_zelda";
+    font-weight: 200;
+  }
+  body main {
+    width: 90%;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+  }
+  body main aside {
+    height: fit-content;
+    width: 18%;
+    position: sticky;
+    top: 100px;
+  }
+  body main aside .category {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main aside .category a {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  body main aside .category a img {
+    width: 100%;
+  }
+  body main aside .category a.active img {
+    width: 100%;
+    box-shadow: 0px 0px 7px 6px rgba(1, 242, 255, 0.5);
+  }
+  body main aside .toggle {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body main aside .toggle .menu {
+    background-color: #332624;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  body main aside .toggle .menu a {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+  body main aside .toggle .menu a img {
+    width: 60%;
+  }
+  body main aside .toggle a {
+    cursor: pointer;
+    padding: 1rem 0.3rem;
+  }
+  body main aside .toggle a img {
+    width: 100%;
+  }
+  body main .list {
+    width: 90%;
+  }
+  body main .list ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #332624;
+    padding: 1rem;
+  }
+  body main .list ul li {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  body main .list ul li figure {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body main .list ul li figure a {
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  body main .list ul li figure a img {
+    min-width: 100%;
+  }
+  body main .list ul li figure a span {
+    position: absolute;
+    left: 2%;
+    top: 2.5%;
+    display: block;
+    font-family: "font_zelda";
+    font-weight: 200;
+    font-size: 0.6rem;
+    color: #faf7f2;
+    background-color: #163156;
+    padding: 0.2rem 0.3rem;
+    border-radius: 10px;
+  }
+  body main .list ul li figure figcaption {
+    width: 50%;
+    color: #e0ceaa;
+  }
+  body main .list ul li figure figcaption b {
+    font-family: "dreamgotic";
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  body main .list ul li figure figcaption p {
+    font-family: "font_zelda";
+    font-weight: 200;
+    font-size: 1rem;
+    padding: 0.5rem 0 1rem;
+  }
+  body main .search {
+    width: 90%;
+  }
+  body main .search .search_area form {
+    transform: translateY(50%);
+    padding-left: 0.5rem;
+    display: flex;
+  }
+  body main .search .search_area form input {
+    width: 90%;
+    font-family: "font_zelda";
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #e0ceaa;
+  }
+  body main .search .search_area form button .searchbtn {
+    width: 70%;
+  }
+  body main .search .search_area form button .searchbtn img {
+    width: 80%;
+  }
+  body main .search .search_area .searchbar {
+    width: 84%;
+  }
+  body main .search .search_area .searchbar img {
+    width: 100%;
+  }
+  body main .search .search_data ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+  }
+  body main .search .search_data ul li {
+    width: 45%;
+    padding: 1rem 0 0;
+  }
+  body main .search .search_data ul li figure {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  body main .search .search_data ul li figure a {
+    width: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  body main .search .search_data ul li figure a img {
+    width: 100%;
+  }
+  body main .search .search_data ul li figure figcaption {
+    color: #e0ceaa;
+    width: 80%;
+    text-align: center;
+  }
+  body main .search .search_data ul li figure figcaption b {
+    font-family: "dreamgotic";
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+  body main .search .search_data p {
+    padding: 10rem 0;
+    width: 100%;
+    color: #e0ceaa;
+    text-align: center;
+    font-size: 0.875rem;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body main .favorite {
+    width: 90%;
+  }
+  body main .favorite .favorite_data p {
+    padding: 18rem 0;
+    width: 100%;
+    color: #e0ceaa;
+    text-align: center;
+    font-size: 20px;
+    font-family: "dreamgotic";
+    font-weight: 500;
+  }
+  body main .favorite .favorite_data ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+  }
+  body main .favorite .favorite_data ul li {
+    width: 45%;
+    padding: 1rem 0 0;
+  }
+  body main .favorite .favorite_data ul li figure {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  body main .favorite .favorite_data ul li figure a {
+    width: 90%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  body main .favorite .favorite_data ul li figure a img {
+    width: 100%;
+  }
+  body main .favorite .favorite_data ul li figure a > span {
+    width: 20%;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 1rem;
+    color: #ff4a4a;
+  }
+  body main .favorite .favorite_data ul li figure figcaption {
+    color: #e0ceaa;
+    width: 80%;
+    text-align: center;
+  }
+  body main .favorite .favorite_data ul li figure figcaption b {
+    display: inline-block;
+    font-family: "dreamgotic";
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+}

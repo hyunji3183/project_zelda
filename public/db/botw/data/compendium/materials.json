@@ -1,0 +1,539 @@
+[
+    {
+        "id": 165,
+        "kname": "사과",
+        "name": "apple",
+        "description": "하이랄에서 가장 보편적인 과일. 그대로 먹어도 되고 요리 소재로 사용하면 효과가 상승한다.",
+        "common_locations": [
+            "하이랄 평원",
+            "동하테르"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "없음",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/apple/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 166,
+        "kname": "야자열매",
+        "name": "palm fruit",
+        "description": "바닷가의 야자수에 열리는 과일. 특출난 효과는 없지만 요리에 사용하면 하트를 회복시키는 효과가 있다.",
+        "common_locations": [
+            "동하테르",
+            "겔드 사막"
+        ],
+        "hearts_recovered": 1.0,
+        "cooking_effect": "없음",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/palm_fruit/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 167,
+        "kname": "딸기",
+        "name": "wildberry",
+        "description": "눈 내리는 추운 지방에서 나는 과일. 새콤달콤한 맛이 특징으로 특출난 효과는 없지만 요리에 자주 사용된다.",
+        "common_locations": [
+            "겔드 고지",
+            "헤브라산"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "없음",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/wildberry/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 168,
+        "kname": "맥스두리안",
+        "name": "hearty durian",
+        "description": "강렬한 냄새가 특징인 과일의 왕. 강력한 회복력이 있어 요리에 사용하면 하트 한계치를 크게 웃돌며 회복된다.",
+        "common_locations": [
+            "서하테르",
+            "필로네 초원"
+        ],
+        "hearts_recovered": 3.0,
+        "cooking_effect": "MAX 하트 +4",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_durian/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 169,
+        "kname": "썰렁멜론",
+        "name": "hydromelon",
+        "description": "사막에서도 자라는 특수한 과일. 즙이 많은 과육에는 체온을 낮추는 효과가 있어 요리에 사용하면 더위를 견디는 효과를 발휘한다.",
+        "common_locations": [
+            "겔드 사막",
+            "필로네 초원"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "더위 가드",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hydromelon/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 170,
+        "kname": "따끈따끈초 열매",
+        "name": "spicy pepper",
+        "description": "생으로 먹으면 짜릿하게 매운 열매. 요리에 사용하면 몸이 따끈해져서 추운 곳에서도 견딜 수 있게 된다.",
+        "common_locations": [
+            "겔드 사막",
+            "타반타 변두리"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "추위 가드",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/spicy_pepper/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 171,
+        "kname": "찌릿찌릿프루트",
+        "name": "voltfruit",
+        "description": "겔드사막의 선인장에 열리는 과일. 달콤한 열매에는 절연 성분이 풍부하게 함유되어 요리에 사용하면 전기 공격에 강해진다..",
+        "common_locations": [
+            "겔드 사막",
+            "겔드 고지"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "전기 가드",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/voltfruit/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 172,
+        "kname": "고고연꽃 열매",
+        "name": "fleet-lotus seeds",
+        "description": "물가에 피어 있는 연꽃 열매. 수중 깊이 내린 뿌리로 모은 영양분 덕에 요리에 사용하면 이동 속도를 올리는 효과를 준다.",
+        "common_locations": [
+            "라넬 습원",
+            "라넬 대수원"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "이동속도 업",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fleet-lotus_seeds/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 173,
+        "kname": "칼날바나나",
+        "name": "mighty bananas",
+        "description": "주로 필로네 지방 열대 우림에 열리는 과일. 껍질로 싸인 과육에는 근력 증강 효과가 있어 공격력이 증가되는 요리를 만들 수 있다.",
+        "common_locations": [
+            "Faron"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "공격력 업",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mighty_bananas/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 174,
+        "kname": "하이랄버섯",
+        "name": "hylian shroom",
+        "description": "하이랄의 숲을 대표하는 버섯. 나무 옆에 나 있는 경우가 많으며 먹으면 하트 회복 효과가 있다.",
+        "common_locations": [
+            "하이랄 평원",
+            "서하테르"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "없음",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hylian_shroom/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 175,
+        "kname": "활력버섯",
+        "name": "endura shroom",
+        "description": "좀처럼 볼 수 없는 노란 버섯. 요리로 만들면 스태미나 게이지 최대치가 늘어나는 매우 귀중한 효과를 발휘한다.",
+        "common_locations": [
+            "하이랄 구릉",
+            "하이랄 평원"
+        ],
+        "hearts_recovered": 1.0,
+        "cooking_effect": "MAX 스태미나",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/endura_shroom/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 176,
+        "kname": "원기버섯",
+        "name": "stamella shroom",
+        "description": "숲속 나무 옆에 자라나는 녹색 버섯. 대지의 에너지를 듬뿍 함유하고 있어 요리에 사용하면 스태미나가 회복되는 효과가 있다.",
+        "common_locations": [
+            "하이랄 구릉",
+            "하이랄 평원"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "스태미나 회복",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/stamella_shroom/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 177,
+        "kname": "맥스트러플",
+        "name": "hearty truffle",
+        "description": "상당히 귀중한 버섯의 일종. 땅속에서 자라며 향이 강하다. 요리에 사용하면 하트가 한계치 이상 회복된다.",
+        "common_locations": [
+            "하이랄 대삼림",
+            "하이랄 평원"
+        ],
+        "hearts_recovered": 2.0,
+        "cooking_effect": "MAX 하트 +1",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_truffle/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 178,
+        "kname": "큰맥스트러플",
+        "name": "big hearty truffle",
+        "description": "아무에게도 발견되지 않고 크게 자란 맥스트러플. 풍부한 영양이 축적되어 요리에 사용하면 하트가 한계치를 훨씬 넘어 회복된다.",
+        "common_locations": [
+            "헤브라산",
+            "하이랄 대삼림"
+        ],
+        "hearts_recovered": 3.0,
+        "cooking_effect": "MAX 하트 +4",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/big_hearty_truffle/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 179,
+        "kname": "썰렁버섯",
+        "name": "chillshroom",
+        "description": "설산의 침엽수 뿌리 부근에 많이 자란다. 만지면 차가운 느낌이 들고 요리에 사용하면 사막의 더위도 견딜 수 있게 된다고 한다.",
+        "common_locations": [
+            "헤브라산",
+            "Mount Lanayru"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "더위 가드",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/chillshroom/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 180,
+        "kname": "따끈따끈버섯",
+        "name": "sunshroom",
+        "description": "주로 기온이 높은 지역에 자라는 새빨간 버섯. 보이는 대로 불의 힘을 지니고 있어 요리에 사용하면 추운 설산에서도 견딜 수 있는 효과를 발휘한다.",
+        "common_locations": [
+            "올딘 협곡",
+            "겔드 고지"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "추위 가드",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/sunshroom/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 181,
+        "kname": "찌릿찌릿버섯",
+        "name": "zapshroom",
+        "description": "겔드 지방에서 자주 보이는 버섯. 갓 부분에 절연 성분이 풍부하게 함유되어 있다. 요리에 사용하면 전격에 대한 내성을 얻을 수 있다.",
+        "common_locations": [
+            "추낙 심부",
+            "겔드 고지"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "전기 가드",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/zapshroom/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 182,
+        "kname": "고고버섯",
+        "name": "rushroom",
+        "description": "천장이나 절벽에 뜬금없이 자라나는 버섯. 어디에서든 자라나는 엄청난 생명력을 자랑한다. 요리에 사용하면 이동력이 향상되는 효과가 있다.",
+        "common_locations": [
+            "겔드 고지",
+            "하이랄 구릉"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "이동속도 업",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/rushroom/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 183,
+        "kname": "칼날버섯",
+        "name": "razorshroom",
+        "description": "검으로 벤 듯한 자국이 특징인 버섯. 요리에 사용하면 갓의 주름에 포함된 성분 탓에 투쟁심이 향상되어 공격력이 상승한다고 한다.",
+        "common_locations": [
+            "하이랄 대삼림",
+            "타반타 변두리"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "공격력 업",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/razorshroom/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 184,
+        "kname": "갑옷버섯",
+        "name": "ironshroom",
+        "description": "갓이 매우 딱딱하게 발달한 버섯. 갓에 함유된 성분 덕에 요리를 해서 먹으면 몸을 강화시키는 효능이 있어 방어력이 상승한다.",
+        "common_locations": [
+            "서하테르",
+            "동하테르"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "방어력 업",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ironshroom/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 185,
+        "kname": "은밀버섯",
+        "name": "silent shroom",
+        "description": "밤이 되면 조용히 빛나는 신비한 버섯. 요리에 사용하면 갓에 함유된 성분 덕에 집중력이 높아져 소리를 내지 않고 행동할 수 있게 된다.",
+        "common_locations": [
+            "라넬 대수원",
+            "서하테르"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "조용함 업",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/silent_shroom/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 186,
+        "kname": "하이랄초",
+        "name": "hyrule herb",
+        "description": "생명력으로 가득 찬 허브. 하이랄 초원에 다수 자생하며 요리에 사용하면 하트를 회복하는 효과가 있다.",
+        "common_locations": [
+            "하이랄 평원",
+            "추낙 고원"
+        ],
+        "hearts_recovered": 1.0,
+        "cooking_effect": "없음",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hyrule_herb/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 187,
+        "kname": "맥스순무",
+        "name": "hearty radish",
+        "description": "볕이 좋은 초원에 자생하는 귀한 순무. 요리에 사용하면 하트가 한계치 이상 회복된다.",
+        "common_locations": [
+            "하이랄 구릉",
+            "동하테르"
+        ],
+        "hearts_recovered": 2.5,
+        "cooking_effect": "MAX 하트 +3",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_radish/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 188,
+        "kname": "큰 맥스순무",
+        "name": "big hearty radish",
+        "description": "한계를 넘어 크게 성장한 맥스순무. 자양 강장 성분이 풍부해 요리에 사용하면 하트가 한계치보다 훨씬 많이 회복된다.",
+        "common_locations": [
+            "추낙 고원",
+            "라넬 대수원"
+        ],
+        "hearts_recovered": 4.0,
+        "cooking_effect": "MAX 하트 +5",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/big_hearty_radish/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 189,
+        "kname": "썰렁허브",
+        "name": "cool safflina",
+        "description": "헤브라와 겔드의 고도가 높은 산지에서 볼 수 있다. 약초의 일종으로 잎에 몸을 식히는 성분이 있어 요리에 사용하면 내서 효과를 얻을 수 있다.",
+        "common_locations": [
+            "헤브라산",
+            "겔드 고지"
+        ],
+        "hearts_recovered": 0.0,
+        "cooking_effect": "더위 가드",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/cool_safflina/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 190,
+        "kname": "따끈따끈허브",
+        "name": "warm safflina",
+        "description": "겔드 지방 등 고온 지방에서 자라는 약초의 일종 열매나 잎은 매운 성분이 강해 요리에 사용하면 추위에 강해지는 효과를 얻을 수 있다.",
+        "common_locations": [
+            "겔드 사막",
+            "하이랄 구릉"
+        ],
+        "hearts_recovered": 0.0,
+        "cooking_effect": "추위 가드",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/warm_safflina/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 191,
+        "kname": "찌릿찌릿허브",
+        "name": "electric safflina",
+        "description": "겔드 사막에 많이 자생하는 약초의 일종. 전류를 외부로 방출하는 특수 섬유질이 있어 요리에 사용하면 전기 내성이 생긴다.",
+        "common_locations": [
+            "겔드 사막",
+            "하이랄 구릉"
+        ],
+        "hearts_recovered": 0.0,
+        "cooking_effect": "전기 가드",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/electric_safflina/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 192,
+        "kname": "고고당근",
+        "name": "swift carrot",
+        "description": "카카리코 마을에서 자주 경작되는 당근. 하반신을 강하게 하는 효능이 있다고 전해지며, 요리해서 먹으면 이동속도가 오른다.",
+        "common_locations": [
+            "Kakariko Village"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "이동속도 업",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/swift_carrot/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 193,
+        "kname": "활력당근",
+        "name": "endura carrot",
+        "description": "약초로도 귀하게 여겨졌던 희귀 당근. 활력의 원천이 되는 성분을 대량 함유하고 있어 요리하면 스태미나 게이지가 한계치 이상 회복된다.",
+        "common_locations": [
+            "하이랄 구릉",
+            "필로네 초원"
+        ],
+        "hearts_recovered": 2.0,
+        "cooking_effect": "MAX 스태미나",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/endura_carrot/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 194,
+        "kname": "갑옷호박",
+        "name": "fortified pumpkin",
+        "description": "마을의 밭에서 재배된 아주 단단한 호박. 요리에 사용하면 튼튼 성분 덕분에 방어력이 상당히 상승하는 효과가 있다.",
+        "common_locations": [
+            "카카리코 마을"
+        ],
+        "hearts_recovered": 0.5,
+        "cooking_effect": "방어력 업",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fortified_pumpkin/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 195,
+        "kname": "고고제비꽃",
+        "name": "swift violet",
+        "description": "깎아지른 절벽에도 피는 생명력이 강한 꽃. 요리에 사용하면 축적된 자양 강장 성분 덕에 이동 속도가 빨라지는 효과가 있다.",
+        "common_locations": [
+            "겔드 고지",
+            "헤브라산"
+        ],
+        "hearts_recovered": 0.0,
+        "cooking_effect": "이동속도 업",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/swift_violet/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 196,
+        "kname": "칼날초",
+        "name": "mighty thistle",
+        "description": "잎과 열매에 있는 날카로운 가시가 특징인 약초. 일시적으로 근력을 향상시키는 특수 성분이 있어 요리에 사용하면 공격력이 증가한다.",
+        "common_locations": [
+            "서하테르",
+            "필로네 초원"
+        ],
+        "hearts_recovered": 0.0,
+        "cooking_effect": "공격력 업",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mighty_thistle/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 197,
+        "kname": "갑옷초",
+        "name": "armoranth",
+        "description": "밟아도 꺾이지 않는 굳센 약초. 억세고 탄력 있는 섬유질은 요리에 사용하면 몸을 강화시키는 역할을 해 방어력이 증가한다.",
+        "common_locations": [
+            "추낙 고원",
+            "하이랄 구릉"
+        ],
+        "hearts_recovered": 0.0,
+        "cooking_effect": "방어력 업",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/armoranth/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 198,
+        "kname": "은밀초",
+        "name": "blue nightshade",
+        "description": "주로 숲과 풀밭에 피는 꽃. 밤이 되면 은은한 빛을 뿜는다. 요리에 사용하면 소음을 줄이는 효과가 있다.",
+        "common_locations": [
+            "서하테르",
+            "라넬 대수원"
+        ],
+        "hearts_recovered": 0.0,
+        "cooking_effect": "조용함 업",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/blue_nightshade/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 199,
+        "kname": "고요한 공주",
+        "name": "silent princess",
+        "description": "하이랄 왕국의 공주가 사랑했다는 청초한 꽃. 이전부터 멸종의 위기에 처한 종이었지만 최근에 드물게 자생하고 있는 것을 볼 수 있다.",
+        "common_locations": [
+            "하이랄 구릉",
+            "서하테르"
+        ],
+        "hearts_recovered": 0.0,
+        "cooking_effect": "조용함 업",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/silent_princess/image",
+        "category": "materials",
+        "dlc": false
+    },
+    {
+        "id": 200,
+        "kname": "원기벌의 벌꿀",
+        "name": "courser bee honey",
+        "description": "벌집에서 갓 딴 벌꿀은 영양 만점! 높은 영양가 덕분에 벌꿀을 조미료으로 쓴 요리는 스태미나 게이지 회복 효과가 나타난다.",
+        "common_locations": [
+            "하이랄 평원",
+            "타반타 변두리"
+        ],
+        "hearts_recovered": 2.0,
+        "cooking_effect": "스테미나 회복",
+        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/courser_bee_honey/image",
+        "category": "materials",
+        "dlc": false
+    }
+]
