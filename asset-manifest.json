@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project_zelda/static/css/main.a87a2e7b.css",
-    "main.js": "/project_zelda/static/js/main.16e2222b.js",
+    "main.css": "/project_zelda/static/css/main.cf30d066.css",
+    "main.js": "/project_zelda/static/js/main.6089fb10.js",
     "static/js/787.c5c1294e.chunk.js": "/project_zelda/static/js/787.c5c1294e.chunk.js",
     "static/media/breath_of_the_wild_1St_trailer.mp4": "/project_zelda/static/media/breath_of_the_wild_1St_trailer.c9446cdbea950fa84eed.mp4",
     "static/media/background_image__PC_detail.png": "/project_zelda/static/media/background_image__PC_detail.a594921b40676e8d482b.png",
@@ -19,12 +19,12 @@
     "service-worker.js": "/project_zelda/service-worker.js",
     "static/media/The_Wild_Breath_of_Zelda.otf": "/project_zelda/static/media/The_Wild_Breath_of_Zelda.f2586a76dbe6e9c1c007.otf",
     "index.html": "/project_zelda/index.html",
-    "main.a87a2e7b.css.map": "/project_zelda/static/css/main.a87a2e7b.css.map",
-    "main.16e2222b.js.map": "/project_zelda/static/js/main.16e2222b.js.map",
+    "main.cf30d066.css.map": "/project_zelda/static/css/main.cf30d066.css.map",
+    "main.6089fb10.js.map": "/project_zelda/static/js/main.6089fb10.js.map",
     "787.c5c1294e.chunk.js.map": "/project_zelda/static/js/787.c5c1294e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a87a2e7b.css",
-    "static/js/main.16e2222b.js"
+    "static/css/main.cf30d066.css",
+    "static/js/main.6089fb10.js"
   ]
 }
