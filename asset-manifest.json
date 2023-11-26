@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/project_zelda/static/css/main.1be859cd.css",
-    "main.js": "/project_zelda/static/js/main.efefad8c.js",
+    "main.js": "/project_zelda/static/js/main.bb32f0c5.js",
     "static/js/787.c5c1294e.chunk.js": "/project_zelda/static/js/787.c5c1294e.chunk.js",
     "static/media/BOTW_trailer.mp4": "/project_zelda/static/media/BOTW_trailer.4b59d337b5afe0e2c25d.mp4",
     "static/media/Hateno_Village.mp3": "/project_zelda/static/media/Hateno_Village.4b45aa2192e3a960aae3.mp3",
@@ -23,11 +23,11 @@
     "static/media/note.png": "/project_zelda/static/media/note.cb1830cbaa0d5ebb32f7.png",
     "index.html": "/project_zelda/index.html",
     "main.1be859cd.css.map": "/project_zelda/static/css/main.1be859cd.css.map",
-    "main.efefad8c.js.map": "/project_zelda/static/js/main.efefad8c.js.map",
+    "main.bb32f0c5.js.map": "/project_zelda/static/js/main.bb32f0c5.js.map",
     "787.c5c1294e.chunk.js.map": "/project_zelda/static/js/787.c5c1294e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1be859cd.css",
-    "static/js/main.efefad8c.js"
+    "static/js/main.bb32f0c5.js"
   ]
 }
