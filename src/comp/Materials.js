@@ -7,14 +7,14 @@ import axios from 'axios'
 
 function Materials() {
     const bodys = document.querySelector('body')
-    bodys.classList.remove('detail')
+    bodys.classList.remove('detail_body')
 
     const [data, setData] = useState([]);
     const [sortedData, setSortedData] = useState([]);
     const navigate = useNavigate();
 
     useEffect(() => {
-        axios.get('./db/botw/data/compendium/materials.json')
+        axios.get('/project_zelda/db/botw/data/compendium/materials.json')
             .then(res => {
                 setData(res.data)
             })
@@ -28,15 +28,15 @@ function Materials() {
         setData(sorted);
     };
     return (<>
-        <Header />
         <main>
             <Aside onSortRequest={dataSort} />
             <div className="list">
+                <Header />
                 <ul>
                     {data && data.map((item) => (
                         <li key={item.id}>
                             <figure onClick={() => { navigate(`/detail/Materials-${item.id}`) }}>
-                                <a href="">
+                                <a>
                                     <img src={item.image} alt={item.name} />
                                     <span>NO. {item.id}</span>
                                 </a>

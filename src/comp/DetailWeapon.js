@@ -6,6 +6,7 @@ import monsters from '../img/icon_2.png';
 import materials from '../img/icon_3.png';
 import equipmentd from '../img/icon_4.png';
 import treasure from '../img/icon_5.png';
+import master from '../img/icon_6.png';
 import deLplace from '../img/detail_line_place_left.png'
 import deRplace from '../img/detail_line_place_right.png'
 import { Link, useNavigate, useParams } from 'react-router-dom';
@@ -15,7 +16,7 @@ function Detail() {
 
 
     const bodys = document.querySelector('body')
-    bodys.classList.add('detail')
+    bodys.classList.add('detail_body')
 
     const { param } = useParams();
     const [catagory, id] = param.split('-');
@@ -27,12 +28,13 @@ function Detail() {
     const navigate = useNavigate();
 
     const url = {
-        Creatures: '../db/botw/data/compendium/Creatures.json',
-        Equipment: '../db/botw/data/compendium/Equipment.json',
-        Materials: '../db/botw/data/compendium/Materials.json',
-        Monsters: '../db/botw/data/compendium/Monsters.json',
-        Treasure: '../db/botw/data/compendium/Treasure.json'
-    }
+        Creatures: '/project_zelda/db/botw/data/compendium/creatures.json',
+        Equipment: '/project_zelda/db/botw/data/compendium/equipment.json',
+        Materials: '/project_zelda/db/botw/data/compendium/materials.json',
+        Monsters: '/project_zelda/db/botw/data/compendium/monsters.json',
+        Treasure: '/project_zelda/db/botw/data/compendium/treasure.json',
+        Master: '/project_zelda/db/botw/data/compendium/master.json'
+    };
 
     let favorite, filterData;
     function favoriteStorage() {
@@ -88,13 +90,14 @@ function Detail() {
                 </div>
             </header>
             <div className='detail'>
-                <aside>
+                <aside className='d_aside'>
                     <div className="category">
                         <Link to="/Creatures"><img src={creatures} alt="" /></Link>
                         <Link to="/monsters"><img src={monsters} alt="" /></Link>
                         <Link to="/materials"><img src={materials} alt="" /></Link>
                         <Link to="/equipment"><img src={equipmentd} alt="" /></Link>
                         <Link to="/treasure"><img src={treasure} alt="" /></Link>
+                        <Link to="/master"><img src={master} alt="" /></Link>
                     </div>
                 </aside>
                 {data && data
@@ -121,7 +124,7 @@ function Detail() {
                                         <p><img src={deRplace} /></p>
                                     </div>
                                     <div className='place_data'>
-                                    {
+                                        {
                                             item.common_locations && item.common_locations.map((v, k) => (
                                                 <span key={k}>{v}</span>
                                             ))

@@ -1,13 +1,62 @@
 @import url("./_reset.scss");
 body {
   background: url(../src/img/background_image.jpeg);
-  width: 100vw;
 }
 body .intro {
   position: relative;
 }
+body .intro .playVideo.behind {
+  display: none;
+}
+body .intro .playVideo {
+  z-index: 5;
+  width: 100%;
+  position: absolute;
+  top: 38%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .intro .playVideo .sheikah_slate {
+  width: 40%;
+  display: inline-block;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+body .intro .playVideo .sheikah_slate img {
+  width: 100%;
+}
+body .intro .playVideo .soundtxt {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+body .intro .playVideo .soundtxt .on {
+  width: 10%;
+  display: inline-block;
+  font-family: "font_zelda", "dreamgotic";
+  font-size: 1.975rem;
+  color: #e0ceaa;
+  cursor: pointer;
+}
+body .intro .playVideo .soundtxt .bar {
+  width: 2%;
+  color: #e0ceaa;
+  font-weight: bold;
+}
+body .intro .playVideo .soundtxt .off {
+  width: 10%;
+  display: inline-block;
+  font-family: "font_zelda", "dreamgotic";
+  font-size: 1.975rem;
+  color: #e0ceaa;
+  cursor: pointer;
+}
 body .intro .videobox {
   position: relative;
+  overflow: hidden;
 }
 body .intro .videobox video {
   display: inline-block;
@@ -18,46 +67,48 @@ body .intro .videobox video {
   transform: translateX(-50%);
   overflow: hidden;
 }
-body .intro .logo {
+body .intro .videobox .skip {
+  opacity: 0;
+  transition: 5s;
+  width: 6%;
   position: absolute;
-  left: 0;
-  bottom: 16%;
+  bottom: 10%;
+  right: 10%;
 }
-body .intro .logo p {
-  width: 80%;
-  display: inline-block;
-  text-align: center;
+body .intro .videobox .skip img {
+  width: 100%;
+  cursor: pointer;
 }
-body .intro .logo p img {
-  width: 50%;
+body .intro .videobox .skip.on {
+  opacity: 1;
 }
 body header {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 body header .head {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem 0;
 }
-body header .head a {
-  width: 8%;
-  text-align: center;
-}
-body header .head a img {
-  width: 50%;
-}
 body header .head h2 {
-  width: 93%;
+  width: 90%;
   color: #e0ceaa;
   text-align: center;
   text-transform: uppercase;
-  font-size: 40px;
-  font-family: "font_zelda";
+  font-size: 2.75rem;
   font-weight: 200;
+  font-family: "font_zelda", "dreamgotic";
+}
+body header .head p {
+  width: 10%;
+}
+body header .head p img {
+  width: 50%;
+  cursor: pointer;
 }
 body main {
   width: 70%;
@@ -67,9 +118,21 @@ body main {
 }
 body main aside {
   height: fit-content;
-  width: 10%;
+  min-width: 10%;
   position: sticky;
-  top: 100px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+body main aside > a {
+  width: 60%;
+  text-align: center;
+  padding: 2rem 0;
+}
+body main aside > a img {
+  width: 60%;
 }
 body main aside .category {
   width: 60%;
@@ -78,7 +141,7 @@ body main aside .category {
   align-items: center;
 }
 body main aside .category a {
-  width: 100%;
+  width: 80%;
   margin-bottom: 0.5rem;
 }
 body main aside .category a img {
@@ -96,7 +159,7 @@ body main aside .toggle {
   justify-content: space-between;
 }
 body main aside .toggle .menu {
-  background-color: #332624;
+  background-color: rgba(51, 38, 36, 0.5);
   text-align: center;
   padding: 1rem 0;
 }
@@ -108,6 +171,7 @@ body main aside .toggle .menu a img {
   width: 70%;
 }
 body main aside .toggle a {
+  width: 90%;
   cursor: pointer;
   padding: 1rem 0.3rem;
 }
@@ -118,6 +182,7 @@ body main .list {
   width: 90%;
 }
 body main .list ul {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -135,6 +200,7 @@ body main .list ul li figure {
   justify-content: space-between;
 }
 body main .list ul li figure a {
+  display: inline-block;
   width: 45%;
   border-radius: 10px;
   overflow: hidden;
@@ -148,31 +214,31 @@ body main .list ul li figure a span {
   left: 2%;
   top: 2.5%;
   display: block;
-  font-family: "font_zelda";
-  font-weight: 200;
-  font-size: 1.2rem;
   color: #faf7f2;
   background-color: #163156;
   padding: 0.2rem 0.3rem;
   border-radius: 10px;
+  font-weight: 200;
+  font-size: 1.2rem;
+  font-family: "font_zelda", "dreamgotic";
 }
 body main .list ul li figure figcaption {
   width: 46%;
   color: #e0ceaa;
 }
 body main .list ul li figure figcaption b {
-  font-family: "dreamgotic";
   font-weight: 500;
   font-size: 1.575rem;
+  font-family: "font_zelda", "dreamgotic";
 }
 body main .list ul li figure figcaption p {
-  font-family: "font_zelda";
   font-weight: 200;
   font-size: 1.525rem;
   padding: 0.5rem 0 1rem;
+  font-family: "font_zelda", "dreamgotic";
 }
 body main .search {
-  width: 90%;
+  width: 100%;
 }
 body main .search .search_area form {
   transform: translateY(50%);
@@ -183,24 +249,32 @@ body main .search .search_area form input {
   padding-bottom: 1rem;
   width: 90%;
   color: #e0ceaa;
-  font-family: "font_zelda", "dreamgotic";
   font-weight: 500;
   font-size: 2rem;
+  font-family: "font_zelda", "dreamgotic";
 }
-body main .search .search_area form > div {
-  width: 90%;
-  display: flex;
+body main .search .search_area form button {
+  width: 10%;
+}
+body main .search .search_area form button .searchbtn img {
+  width: 100%;
 }
 body main .search .search_area .searchbar {
-  width: 86%;
+  width: 90%;
 }
 body main .search .search_area .searchbar img {
   width: 100%;
 }
+body main .search .search_data {
+  width: 100%;
+  padding: 3rem;
+  margin-top: 2rem;
+  background-color: #332624;
+}
 body main .search .search_data ul {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
+  width: 100%;
 }
 body main .search .search_data ul li {
   width: 25%;
@@ -228,9 +302,9 @@ body main .search .search_data ul li figure figcaption {
 body main .search .search_data ul li figure figcaption b {
   display: inline-block;
   padding: 0.8rem 0;
-  font-family: "dreamgotic";
   font-weight: 500;
   font-size: 1.2rem;
+  font-family: "font_zelda", "dreamgotic";
 }
 body main .search .search_data p {
   padding: 10rem 0;
@@ -238,11 +312,21 @@ body main .search .search_data p {
   color: #e0ceaa;
   text-align: center;
   font-size: 20px;
-  font-family: "dreamgotic";
   font-weight: 500;
+  font-family: "font_zelda", "dreamgotic";
 }
 body main .favorite {
-  width: 90%;
+  width: 100%;
+}
+body main .favorite .favorite_data {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #332624;
 }
 body main .favorite .favorite_data p {
   padding: 18rem 0;
@@ -250,13 +334,14 @@ body main .favorite .favorite_data p {
   color: #e0ceaa;
   text-align: center;
   font-size: 20px;
-  font-family: "dreamgotic";
   font-weight: 500;
+  font-family: "font_zelda", "dreamgotic";
 }
 body main .favorite .favorite_data ul {
   display: flex;
   flex-wrap: wrap;
-  width: 96%;
+  justify-content: flex-start;
+  width: 100%;
 }
 body main .favorite .favorite_data ul li {
   width: 25%;
@@ -285,6 +370,7 @@ body main .favorite .favorite_data ul li figure a > span {
   top: 5%;
   font-size: 2rem;
   color: #ff4a4a;
+  cursor: pointer;
 }
 body main .favorite .favorite_data ul li figure figcaption {
   color: #e0ceaa;
@@ -294,18 +380,68 @@ body main .favorite .favorite_data ul li figure figcaption {
 body main .favorite .favorite_data ul li figure figcaption b {
   display: inline-block;
   padding: 0.8rem 0;
-  font-family: "dreamgotic";
   font-weight: 500;
   font-size: 1.2rem;
+  font-family: "font_zelda", "dreamgotic";
 }
 
 @media (min-width: 641px) and (max-width: 1024px) {
   body {
     background: url(../src/img/background_image.jpeg);
     width: 100%;
+    font-family: "font_zelda", "dreamgotic";
   }
   body .intro {
     position: relative;
+  }
+  body .intro .playVideo.behind {
+    display: none;
+  }
+  body .intro .playVideo {
+    z-index: 5;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .intro .playVideo .sheikah_slate {
+    width: 80%;
+    display: inline-block;
+    padding-bottom: 1rem;
+    cursor: pointer;
+  }
+  body .intro .playVideo .sheikah_slate img {
+    width: 100%;
+  }
+  body .intro .playVideo .soundtxt {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  body .intro .playVideo .soundtxt .on {
+    width: 20%;
+    display: inline-block;
+    font-family: "font_zelda", "dreamgotic";
+    font-size: 1.625rem;
+    color: #e0ceaa;
+    cursor: pointer;
+  }
+  body .intro .playVideo .soundtxt .bar {
+    width: 2%;
+    color: #e0ceaa;
+    font-weight: bold;
+  }
+  body .intro .playVideo .soundtxt .off {
+    width: 20%;
+    display: inline-block;
+    font-family: "font_zelda", "dreamgotic";
+    font-size: 1.625rem;
+    color: #e0ceaa;
+    cursor: pointer;
   }
   body .intro .videobox {
     position: relative;
@@ -319,18 +455,20 @@ body main .favorite .favorite_data ul li figure figcaption b {
     transform: translateX(-50%);
     overflow: hidden;
   }
-  body .intro .logo {
+  body .intro .videobox .skip {
+    opacity: 0;
+    transition: 5s;
+    width: 10%;
     position: absolute;
-    left: 0;
-    bottom: 16%;
+    bottom: 10%;
+    right: 10%;
   }
-  body .intro .logo p {
-    width: 80%;
-    display: inline-block;
-    text-align: center;
+  body .intro .videobox .skip img {
+    width: 100%;
+    cursor: pointer;
   }
-  body .intro .logo p img {
-    width: 50%;
+  body .intro .videobox .skip.on {
+    opacity: 1;
   }
   body header {
     width: 100%;
@@ -343,21 +481,20 @@ body main .favorite .favorite_data ul li figure figcaption b {
     margin: 0 auto;
     padding: 2rem 0;
   }
-  body header .head a {
-    width: 7%;
-    text-align: center;
-  }
-  body header .head a img {
-    width: 50%;
-  }
   body header .head h2 {
     width: 93%;
     color: #e0ceaa;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.875rem;
-    font-family: "font_zelda";
     font-weight: 0;
+  }
+  body header .head p {
+    width: 10%;
+  }
+  body header .head p img {
+    width: 60%;
+    cursor: pointer;
   }
   body main {
     width: 90%;
@@ -369,7 +506,14 @@ body main .favorite .favorite_data ul li figure figcaption b {
     height: fit-content;
     width: 10%;
     position: sticky;
-    top: 100px;
+  }
+  body main aside > a {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  body main aside > a img {
+    width: 50%;
   }
   body main aside .category {
     width: 70%;
@@ -448,7 +592,6 @@ body main .favorite .favorite_data ul li figure figcaption b {
     left: 2%;
     top: 2.5%;
     display: block;
-    font-family: "font_zelda";
     font-weight: 200;
     font-size: 0.8rem;
     color: #faf7f2;
@@ -461,12 +604,10 @@ body main .favorite .favorite_data ul li figure figcaption b {
     color: #e0ceaa;
   }
   body main .list ul li figure figcaption b {
-    font-family: "dreamgotic";
     font-weight: 500;
     font-size: 1.175rem;
   }
   body main .list ul li figure figcaption p {
-    font-family: "font_zelda";
     font-weight: 200;
     font-size: 1.125rem;
     padding: 0.5rem 0 1rem;
@@ -481,7 +622,6 @@ body main .favorite .favorite_data ul li figure figcaption b {
   }
   body main .search .search_area form input {
     width: 90%;
-    font-family: "font_zelda";
     font-weight: 200;
     font-size: 1.875rem;
     color: #e0ceaa;
@@ -496,10 +636,16 @@ body main .favorite .favorite_data ul li figure figcaption b {
   body main .search .search_area .searchbar img {
     width: 100%;
   }
+  body main .search .search_data {
+    width: 100%;
+    background-color: #332624;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
   body main .search .search_data ul {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
   }
   body main .search .search_data ul li {
     width: 25%;
@@ -525,10 +671,15 @@ body main .favorite .favorite_data ul li figure figcaption b {
     text-align: center;
   }
   body main .search .search_data ul li figure figcaption b {
+    width: 100%;
+    display: block;
     padding: 0.8rem 0;
-    font-family: "dreamgotic";
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
   }
   body main .search .search_data p {
     padding: 10rem 0;
@@ -536,11 +687,14 @@ body main .favorite .favorite_data ul li figure figcaption b {
     color: #e0ceaa;
     text-align: center;
     font-size: 20px;
-    font-family: "dreamgotic";
     font-weight: 500;
   }
   body main .favorite {
-    width: 90%;
+    width: 100%;
+  }
+  body main .favorite .favorite_data {
+    padding: 2rem;
+    width: 100%;
   }
   body main .favorite .favorite_data p {
     padding: 18rem 0;
@@ -548,13 +702,13 @@ body main .favorite .favorite_data ul li figure figcaption b {
     color: #e0ceaa;
     text-align: center;
     font-size: 20px;
-    font-family: "dreamgotic";
     font-weight: 500;
   }
   body main .favorite .favorite_data ul {
     display: flex;
     flex-wrap: wrap;
-    width: 96%;
+    justify-content: flex-start;
+    width: 100%;
   }
   body main .favorite .favorite_data ul li {
     width: 25%;
@@ -581,7 +735,7 @@ body main .favorite .favorite_data ul li figure figcaption b {
     position: absolute;
     right: 5%;
     top: 5%;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #ff4a4a;
   }
   body main .favorite .favorite_data ul li figure figcaption {
@@ -590,20 +744,74 @@ body main .favorite .favorite_data ul li figure figcaption b {
     text-align: center;
   }
   body main .favorite .favorite_data ul li figure figcaption b {
+    width: 100%;
     padding: 0.8rem 0;
-    display: inline-block;
-    font-family: "dreamgotic";
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
   }
 }
 @media (max-width: 640px) {
   body {
     background: url(../src/img/background_image.jpeg);
     width: 100%;
+    font-family: "font_zelda", "dreamgotic";
   }
   body .intro {
     position: relative;
+  }
+  body .intro .playVideo.behind {
+    display: none;
+  }
+  body .intro .playVideo {
+    z-index: 5;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .intro .playVideo .sheikah_slate {
+    width: 90%;
+    display: inline-block;
+    padding-bottom: 1rem;
+    cursor: pointer;
+  }
+  body .intro .playVideo .sheikah_slate img {
+    width: 100%;
+  }
+  body .intro .playVideo .soundtxt {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  body .intro .playVideo .soundtxt .on {
+    width: 20%;
+    display: inline-block;
+    font-family: "font_zelda", "dreamgotic";
+    font-size: 1.625rem;
+    color: #e0ceaa;
+    cursor: pointer;
+  }
+  body .intro .playVideo .soundtxt .bar {
+    width: 2%;
+    color: #e0ceaa;
+    font-weight: bold;
+  }
+  body .intro .playVideo .soundtxt .off {
+    width: 20%;
+    display: inline-block;
+    font-family: "font_zelda", "dreamgotic";
+    font-size: 1.625rem;
+    color: #e0ceaa;
+    cursor: pointer;
   }
   body .intro .videobox {
     position: relative;
@@ -617,6 +825,21 @@ body main .favorite .favorite_data ul li figure figcaption b {
     transform: translateX(-50%);
     overflow: hidden;
   }
+  body .intro .videobox .skip {
+    opacity: 0;
+    transition: 5s;
+    width: 14%;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+  }
+  body .intro .videobox .skip img {
+    width: 100%;
+    cursor: pointer;
+  }
+  body .intro .videobox .skip.on {
+    opacity: 1;
+  }
   body header {
     width: 100%;
   }
@@ -628,21 +851,20 @@ body main .favorite .favorite_data ul li figure figcaption b {
     margin: 0 auto;
     padding: 2rem 0;
   }
-  body header .head a {
-    width: 14%;
-    text-align: center;
-  }
-  body header .head a img {
-    width: 50%;
-  }
   body header .head h2 {
     width: 86%;
     color: #e0ceaa;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.4rem;
-    font-family: "font_zelda";
     font-weight: 200;
+  }
+  body header .head p {
+    width: 10%;
+  }
+  body header .head p img {
+    width: 80%;
+    cursor: pointer;
   }
   body main {
     width: 90%;
@@ -654,7 +876,14 @@ body main .favorite .favorite_data ul li figure figcaption b {
     height: fit-content;
     width: 18%;
     position: sticky;
-    top: 100px;
+  }
+  body main aside > a {
+    width: 70%;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  body main aside > a img {
+    width: 50%;
   }
   body main aside .category {
     width: 70%;
@@ -735,7 +964,6 @@ body main .favorite .favorite_data ul li figure figcaption b {
     left: 2%;
     top: 2.5%;
     display: block;
-    font-family: "font_zelda";
     font-weight: 200;
     font-size: 0.6rem;
     color: #faf7f2;
@@ -748,12 +976,10 @@ body main .favorite .favorite_data ul li figure figcaption b {
     color: #e0ceaa;
   }
   body main .list ul li figure figcaption b {
-    font-family: "dreamgotic";
     font-weight: 500;
     font-size: 1rem;
   }
   body main .list ul li figure figcaption p {
-    font-family: "font_zelda";
     font-weight: 200;
     font-size: 1rem;
     padding: 0.5rem 0 1rem;
@@ -768,7 +994,6 @@ body main .favorite .favorite_data ul li figure figcaption b {
   }
   body main .search .search_area form input {
     width: 90%;
-    font-family: "font_zelda";
     font-weight: 200;
     font-size: 1.5rem;
     color: #e0ceaa;
@@ -785,12 +1010,16 @@ body main .favorite .favorite_data ul li figure figcaption b {
   body main .search .search_area .searchbar img {
     width: 100%;
   }
+  body main .search .search_data {
+    width: 100%;
+    padding: 1rem;
+  }
   body main .search .search_data ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    padding: 1rem;
+    padding: 0rem;
   }
   body main .search .search_data ul li {
     width: 45%;
@@ -816,9 +1045,13 @@ body main .favorite .favorite_data ul li figure figcaption b {
     text-align: center;
   }
   body main .search .search_data ul li figure figcaption b {
-    font-family: "dreamgotic";
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
   }
   body main .search .search_data p {
     padding: 10rem 0;
@@ -826,19 +1059,21 @@ body main .favorite .favorite_data ul li figure figcaption b {
     color: #e0ceaa;
     text-align: center;
     font-size: 0.875rem;
-    font-family: "dreamgotic";
     font-weight: 500;
   }
   body main .favorite {
     width: 90%;
+  }
+  body main .favorite .favorite_data {
+    width: 100%;
+    padding: 1rem;
   }
   body main .favorite .favorite_data p {
     padding: 18rem 0;
     width: 100%;
     color: #e0ceaa;
     text-align: center;
-    font-size: 20px;
-    font-family: "dreamgotic";
+    font-size: 1.25rem;
     font-weight: 500;
   }
   body main .favorite .favorite_data ul {
@@ -846,7 +1081,7 @@ body main .favorite .favorite_data ul li figure figcaption b {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    padding: 1rem;
+    padding: 0rem;
   }
   body main .favorite .favorite_data ul li {
     width: 45%;
@@ -873,7 +1108,7 @@ body main .favorite .favorite_data ul li figure figcaption b {
     position: absolute;
     right: 5%;
     top: 5%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #ff4a4a;
   }
   body main .favorite .favorite_data ul li figure figcaption {
@@ -883,8 +1118,12 @@ body main .favorite .favorite_data ul li figure figcaption b {
   }
   body main .favorite .favorite_data ul li figure figcaption b {
     display: inline-block;
-    font-family: "dreamgotic";
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
   }
 }

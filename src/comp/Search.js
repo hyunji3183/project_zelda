@@ -15,11 +15,12 @@ function Search() {
     const navigate = useNavigate();
 
     const url = {
-        Creatures: '../db/botw/data/compendium/Creatures.json',
-        Equipment: '../db/botw/data/compendium/Equipment.json',
-        Materials: '../db/botw/data/compendium/Materials.json',
-        Monsters: '../db/botw/data/compendium/Monsters.json',
-        Treasure: '../db/botw/data/compendium/Treasure.json',
+        Creatures: '/project_zelda/db/botw/data/compendium/creatures.json',
+        Equipment: '/project_zelda/db/botw/data/compendium/equipment.json',
+        Materials: '/project_zelda/db/botw/data/compendium/materials.json',
+        Monsters: '/project_zelda/db/botw/data/compendium/monsters.json',
+        Treasure: '/project_zelda/db/botw/data/compendium/treasure.json',
+        Master: '/project_zelda/db/botw/data/compendium/master.json'
     };
 
     // url 내 모든 데이터 가져오기
@@ -32,7 +33,7 @@ function Search() {
             setData(mergedData);
         };
         const bodys = document.querySelector('body');
-        bodys.classList.remove('detail');
+        bodys.classList.remove('detail_body');
         fetchData();
     }, []);
 
@@ -71,10 +72,10 @@ function Search() {
 
     return (
         <>
-            <Header />
             <main>
                 <Aside onSortRequest={dataSort} />
                 <div className="search">
+                    <Header />
                     <div className='search_area'>
                         <form onSubmit={searching}>
                             <input

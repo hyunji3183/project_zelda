@@ -12,14 +12,15 @@ function Favorite() {
     const navigate = useNavigate();
 
     const bodys = document.querySelector('body');
-    bodys.classList.remove('detail');
+    bodys.classList.remove('detail_body');
 
     const url = {
-        Creatures: '../db/botw/data/compendium/Creatures.json',
-        Equipment: '../db/botw/data/compendium/Equipment.json',
-        Materials: '../db/botw/data/compendium/Materials.json',
-        Monsters: '../db/botw/data/compendium/Monsters.json',
-        Treasure: '../db/botw/data/compendium/Treasure.json'
+        Creatures: '/project_zelda/db/botw/data/compendium/creatures.json',
+        Equipment: '/project_zelda/db/botw/data/compendium/equipment.json',
+        Materials: '/project_zelda/db/botw/data/compendium/materials.json',
+        Monsters: '/project_zelda/db/botw/data/compendium/monsters.json',
+        Treasure: '/project_zelda/db/botw/data/compendium/treasure.json',
+        Master: '/project_zelda/db/botw/data/compendium/master.json'
     };
 
     const favorites = localStorage.getItem('fa') ? JSON.parse(localStorage.getItem('fa')) : [];
@@ -29,7 +30,7 @@ function Favorite() {
 
         const axiosRequests = favorites.map((v, k) => {
             return axios.get(url[v.catagory])
-            .then((res) => {
+                .then((res) => {
                     let filterData = res.data.filter(n => n.id == v.id);
                     allData.push(...filterData);
                 });
@@ -84,10 +85,10 @@ function Favorite() {
 
     return (
         <>
-            <Header />
             <main>
                 <Aside onSortRequest={dataSort} />
                 <div className='favorite'>
+                    <Header />
                     <div className='favorite_data'>
                         {data.length === 0 ? (
                             <p>목록이 비어있습니다.</p>
@@ -96,7 +97,7 @@ function Favorite() {
                                 {data.map((item) => (
                                     <li key={item.id}>
                                         <figure>
-                                            <a href="">
+                                            <a>
                                                 <img src={item.image} alt={item.name} onClick={() => favoriteDetail(item.category, item.id)} />
                                                 <span className={`material-symbols-outlined ${isFavorite(item.id, item.category) ? 'active' : ''}`}
                                                     onClick={() => { removeFavorite(item); }}>favorite</span>
